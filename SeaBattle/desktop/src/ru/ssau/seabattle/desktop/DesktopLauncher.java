@@ -6,6 +6,7 @@ import ru.ssau.seabattle.SeaBattle;
 
 public class DesktopLauncher {
 	//sdfsdf
+	//sdfsdf
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new SeaBattle(), config);
