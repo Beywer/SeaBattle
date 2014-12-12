@@ -5,10 +5,12 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import ru.ssau.seabattle.SeaBattle;
 
 public class DesktopLauncher {
-	//sdfsdf
-	//sdfsdf
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.vSyncEnabled = true;
+		config.width = 1000;
+		config.height = 600;
+		config.resizable = false;
 		new LwjglApplication(new SeaBattle(), config);
 	}
 }
