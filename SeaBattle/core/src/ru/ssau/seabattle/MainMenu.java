@@ -55,7 +55,7 @@ public class MainMenu implements Screen {
 
 	@Override
 	public void show() {
-		font = new BitmapFont(Gdx.files.internal("font/SeaBattleFont.fnt"), false);//Здесь false-y ось нарпавлена вверх
+		font = new BitmapFont(Gdx.files.internal("font/font.fnt"), false);//Здесь false-y ось нарпавлена вверх
 		
 		atlas = new TextureAtlas("button/Buttons.pack");
 		skin = new Skin(atlas);

@@ -63,7 +63,7 @@ public class NewGame implements Screen {
 		skin.add("back", new Texture("back.png"));
 		
 		//FONT
-		font = new BitmapFont(Gdx.files.internal("font/SeaBattleFont.fnt"));
+		font = new BitmapFont(Gdx.files.internal("font/font.fnt"));
 		
 		//Background
 		Table background = new Table(skin);
@@ -73,13 +73,10 @@ public class NewGame implements Screen {
 		//HEADERS
 		final LabelStyle labelStyle = new LabelStyle(font, Color.WHITE);
 		label = new Label("Новая игра", labelStyle);
-		label.setFontScale(1.5f);
 		//modeHeader
 		Label modeHeader = new Label("Режим игры", labelStyle);
-		modeHeader.setFontScale(1.5f);
 		//levelHeader
 		Label levelHeader = new Label("Сложность игры", labelStyle);
-		levelHeader.setFontScale(1.5f);
 		
 		//PANES
 		ScrollPaneStyle scrollPaneStyle = new ScrollPaneStyle(

@@ -82,7 +82,7 @@ public class LoadGame implements Screen {
 				, skin.getDrawable("vScrollKnob"));
 		
 		ListStyle listStyle = new ListStyle(
-				new BitmapFont(Gdx.files.internal("font/SeaBattleFont.fnt"), false)
+				new BitmapFont(Gdx.files.internal("font/font.fnt"), false)
 				, Color.RED, Color.WHITE, skin.getDrawable("vScroll"));
 		
 		list = new List<String>(listStyle);
@@ -96,7 +96,7 @@ public class LoadGame implements Screen {
 		pane.setSize(700, 350);
 			
 		//Font and header
-		BitmapFont font = new BitmapFont(Gdx.files.internal("font/SeaBattleFont.fnt"));
+		BitmapFont font = new BitmapFont(Gdx.files.internal("font/font.fnt"));
 		LabelStyle labelStyle = new LabelStyle(font, Color.WHITE);
 		header = new Label("Загрузка игры", labelStyle);
 		header.setFontScale(1.5f);
