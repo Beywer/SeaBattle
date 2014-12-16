@@ -75,6 +75,7 @@ public class NewGame implements Screen {
 		label = new Label("Новая игра", labelStyle);
 		//modeHeader
 		Label modeHeader = new Label("Режим игры", labelStyle);
+		modeHeader.setColor(Color.WHITE);
 		//levelHeader
 		Label levelHeader = new Label("Сложность игры", labelStyle);
 		
@@ -88,13 +89,12 @@ public class NewGame implements Screen {
 		//modePane
 		ListStyle listStyle = new ListStyle(font, Color.RED, Color.BLACK, skin.getDrawable("hScroll"));
 		List<String> modeList = new List<String>(listStyle);
-		modeList.setItems(new String[]{"    Одиночная ","      Сетевая"});
+		modeList.setItems(new String[]{" Одиночная ","  Сетевая"});
 		modeList.setSelectedIndex(-1);
 		modePane = new ScrollPane(modeList, scrollPaneStyle);
-		modePane.setBounds(0, 0, 10, 10);
 		//LevelPane
 		List<String> levellist = new List<String>(listStyle);
-		levellist.setItems(new String[]{"        Легкий","       Средний","       Сложный"});
+		levellist.setItems(new String[]{"     Легкий","    Средний","   Сложный"});
 		levelPane = new ScrollPane(levellist, scrollPaneStyle);
 		
 		//TABLES
@@ -103,13 +103,14 @@ public class NewGame implements Screen {
 		modeTable.add(modeHeader);
 		modeTable.row();
 		modeTable.add(modePane).fill();
-		modeTable.setBounds(0, 0, 250, 100);
+		modeTable.setBounds(0, 0, 250, 200);
+		modeTable.debug();
 		//levelTable
 		levelTable = new Table(skin);
 		levelTable.add(levelHeader);
 		levelTable.row();
 		levelTable.add(levelPane).fill();
-		levelTable.setBounds(0, 0, 250, 150);
+		levelTable.setBounds(0, 0, 250, 250);
 		
 		modeHeader.addListener(new ClickListener() {
 			@Override

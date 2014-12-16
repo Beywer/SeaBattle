@@ -72,6 +72,7 @@ public class MainMenu implements Screen {
 		
 		//Create buttons
 		TextButtonStyle textButtonStyle = new TextButtonStyle();
+		textButtonStyle.fontColor = Color.BLACK;
 		textButtonStyle.up = skin.getDrawable("but_up");
 		textButtonStyle.down = skin.getDrawable("but_down");
 		textButtonStyle.pressedOffsetX = 1;
@@ -79,7 +80,7 @@ public class MainMenu implements Screen {
 		textButtonStyle.font = font;
 		
 		buttonExit = new TextButton("        Выход        ", textButtonStyle);
-		buttonExit.pad(0, 70, 4, 70);
+		buttonExit.pad(0, 80, 20, 80);
 		buttonExit.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
@@ -88,7 +89,7 @@ public class MainMenu implements Screen {
 		});
 		
 		buttonPlay = new TextButton("      Новая игра     ", textButtonStyle);
-		buttonPlay.pad(0, 70, 4, 70);
+		buttonPlay.pad(0, 80, 25, 80);
 		buttonPlay.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
@@ -97,7 +98,7 @@ public class MainMenu implements Screen {
 		});
 
 		butDownload = new TextButton("   Загрузить игру   ", textButtonStyle);
-		butDownload.pad(0, 70, 4, 70);
+		butDownload.pad(0, 80, 25, 80);
 		butDownload.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
@@ -107,16 +108,17 @@ public class MainMenu implements Screen {
 		
 
 		butAbout = new TextButton("    О программе    ", textButtonStyle);
-		butAbout.pad(0, 70, 4, 70);
+		butAbout.pad(0, 80, 25, 80);
 		
 
 		butTeam = new TextButton("  О разработчиках  ", textButtonStyle);
-		butTeam.pad(0, 70, 4, 70);
+		butTeam.pad(0, 80, 25, 80);
 		
 		//Create heading
 		LabelStyle headingStyle = new LabelStyle(font, Color.WHITE);
 		heading = new Label("Морской бой", headingStyle);
 		heading.setFontScale(2);
+		heading.setColor(Color.WHITE);
 		
 		//Filling the table
 		table.background(skin.getDrawable("back"));
@@ -143,19 +145,7 @@ public class MainMenu implements Screen {
 		//Creating animation
 		tweenManager = new TweenManager();
 		Tween.registerAccessor(Actor.class, new ActorAccessor());
-		
-		Timeline.createSequence().beginSequence()
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(0, 0, 1))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(0, 1, 0))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(0, 1, 1))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(1, 0, 0))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(1, 0, 1))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(1, 1, 0))
-			.push(Tween.to(heading, ActorAccessor.RGB, .4f).target(1, 1, 1))
-			.end()
-			.repeat(Tween.INFINITY, 0)
-			.start(tweenManager);
-				
+						
 //		Tween.from(table, ActorAccessor.ALPHA, 1).target(0).start(tweenManager);
 //		Tween.from(table, ActorAccessor.Y, 2).target(Gdx.graphics.getWidth()/4).start(tweenManager);
 //		Gdx.app.log("sdf",String.valueOf(buttonPlay.getX()));
