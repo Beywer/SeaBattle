@@ -1,14 +1,15 @@
 package ru.ssau.seabattle.core;
 
-import ru.ssau.seabattle.opponent.TurnMaker;
+import ru.ssau.seabattle.opponent.AI;
 
-public class Game {
+
+public class SingleGame {
 	
-	private TurnMaker opponent;
+	private AI opponent;
 	private Field myField;
 	private Field opponentField;
 	
-	public Game(TurnMaker opponent, Field myField, Field opponentField ){
+	public SingleGame(AI opponent, Field myField, Field opponentField ){
 		this.opponent = opponent;
 		this.myField = myField;
 		this.opponentField = opponentField;		

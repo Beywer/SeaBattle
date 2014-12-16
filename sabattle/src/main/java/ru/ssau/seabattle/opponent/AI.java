@@ -9,7 +9,7 @@ import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShipState;
 import ru.ssau.seabattle.core.ShootState;
 
-public class AI implements TurnMaker {
+public class AI{
 
 	private Level level;
 	private ArrayList<Coordinate> cells; 

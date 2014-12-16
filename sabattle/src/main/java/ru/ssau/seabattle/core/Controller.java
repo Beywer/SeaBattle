@@ -5,13 +5,12 @@ import java.io.IOException;
 
 import ru.ssau.seabattle.opponent.AI;
 import ru.ssau.seabattle.opponent.Level;
-import ru.ssau.seabattle.opponent.TurnMaker;
 
 public class Controller {
 
 	private static Field myField,opponentField;
-	private static TurnMaker opponent;
-	private static Game game;
+	private static AI opponent;
+	private static SingleGame game;
 	private static boolean flag;
 	
 	public static void main(String[] args) throws IOException {
@@ -23,7 +22,7 @@ public class Controller {
 		
 		opponent = new AI(Level.MIDDLE, myField);
 		
-		game = new Game(opponent, myField, opponentField);
+		game = new SingleGame(opponent, myField, opponentField);
 //		printFields();
 		
 		DataInputStream dis = new DataInputStream(System.in);
