@@ -3,15 +3,16 @@ package ru.ssau.seabattle.core;
 import java.io.DataInputStream;
 import java.io.IOException;
 
-import ru.ssau.seabattle.ai.AI;
-import ru.ssau.seabattle.ai.Level;
-import ru.ssau.seabattle.ai.TurnMaker;
+import ru.ssau.seabattle.opponent.AI;
+import ru.ssau.seabattle.opponent.Level;
+import ru.ssau.seabattle.opponent.TurnMaker;
 
 public class Controller {
 
 	private static Field myField,opponentField;
 	private static TurnMaker opponent;
 	private static Game game;
+	private static boolean flag;
 	
 	public static void main(String[] args) throws IOException {
 
@@ -20,7 +21,7 @@ public class Controller {
 		opponentField = new Field();
 		opponentField.generate();
 		
-		opponent = new AI(Level.LOW, myField);
+		opponent = new AI(Level.MIDDLE, myField);
 		
 		game = new Game(opponent, myField, opponentField);
 //		printFields();
@@ -30,7 +31,12 @@ public class Controller {
 		while(true){
 			System.out.println("======================================");
 			printFields();
-			System.out.println("Ваш ход :");
+			if(flag){
+				System.out.println("#####");//TODO УДАЛИТЬ
+				System.out.println("#####");
+				flag = false;
+			}
+			System.out.print("Ваш ход : ");
 			String str = dis.readLine();
 			str = str.trim().toUpperCase();
 			int x = str.getBytes()[0] - 'A';
@@ -39,7 +45,7 @@ public class Controller {
 			System.out.println(state);
 			while(state!= ShootState.MISS){
 				printFields();
-				System.out.println("\nВаш ход :");
+				System.out.print("\nВаш ход : ");
 				str = dis.readLine();
 				str = str.trim().toUpperCase();
 				x = str.getBytes()[0] - 'A';
@@ -51,16 +57,16 @@ public class Controller {
 			state = game.opponentShoot();
 			x = opponent.getLastHit().getX();
 			y = opponent.getLastHit().getY();
-			System.out.println("Ход противника : " + x + " " + y);
-			System.out.println("Ход противника : " + (char)(x + 'A')  + " " + y);
+			System.out.println("Ход противника : " + (char)(x + 'A')  + " " + (y+1) );
 			System.out.println(state);
 			
 			while(state!= ShootState.MISS){
+				flag = true;
+				printFields();
 				state = game.opponentShoot();
 				x = opponent.getLastHit().getX();
 				y = opponent.getLastHit().getY();
-				System.out.println("Ход противника : " + x + " " + y);
-				System.out.println("Ход противника : " + (char)(x + 'A')  + " " + y);
+				System.out.println("Ход противника : " + (char)(x + 'A')  + " " + (y+1));
 				System.out.println(state);
 			}
 		}

@@ -1,4 +1,4 @@
-package ru.ssau.seabattle.ai;
+package ru.ssau.seabattle.opponent;
 
 import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.ShootState;

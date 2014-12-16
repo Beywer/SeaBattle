@@ -1,6 +1,6 @@
 package ru.ssau.seabattle.core;
 
-import ru.ssau.seabattle.ai.TurnMaker;
+import ru.ssau.seabattle.opponent.TurnMaker;
 
 public class Game {
 	

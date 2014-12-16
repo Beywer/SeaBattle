@@ -1,3 +1,3 @@
-package ru.ssau.seabattle.ai;
+package ru.ssau.seabattle.opponent;
 
 public enum Level {LOW,MIDDLE,HARD}
