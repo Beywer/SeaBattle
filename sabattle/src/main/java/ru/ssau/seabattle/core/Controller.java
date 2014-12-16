@@ -13,10 +13,20 @@ public class Controller {
 	private static SingleGame game;
 	private static boolean flag;
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 
 		myField = new Field();
 		myField.generate();
+//		myField.setShip(0, 0, 4, true);
+//		myField.setShip(0, 2, 4, true);
+//		myField.setShip(0, 4, 4, true);
+//		myField.setShip(0, 6, 4, true);
+//		myField.setShip(0, 8, 4, true);
+//		myField.setShip(5, 0, 4, true);
+//		myField.setShip(5, 2, 4, true);
+//		myField.setShip(5, 4, 4, true);
+//		myField.setShip(5, 6, 4, true);
+//		myField.setShip(5, 8, 4, true);
 		opponentField = new Field();
 		opponentField.generate();
 		
@@ -38,8 +48,9 @@ public class Controller {
 			System.out.print("Ваш ход : ");
 			String str = dis.readLine();
 			str = str.trim().toUpperCase();
-			int x = str.getBytes()[0] - 'A';
-			int y = Integer.valueOf(str.substring(1).trim()) - 1;
+//			Thread.sleep(1000);
+			int x = 1;
+			int y = 1;
 			ShootState state = game.myShoot(x, y);
 			System.out.println(state);
 			while(state!= ShootState.MISS){
@@ -47,8 +58,9 @@ public class Controller {
 				System.out.print("\nВаш ход : ");
 				str = dis.readLine();
 				str = str.trim().toUpperCase();
-				x = str.getBytes()[0] - 'A';
-				y = Integer.valueOf(str.substring(1).trim()) - 1;
+//				Thread.sleep(1000);
+				x = 1;
+				y = 1;
 				state = game.myShoot(x, y);
 			}
 			

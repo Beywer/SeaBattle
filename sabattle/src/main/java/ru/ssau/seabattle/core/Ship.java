@@ -48,7 +48,7 @@ public class Ship {
 		return state;
 	}
 	
-	public ShootState checkShoot(Cell cell){
+	public ShootState shipShoot(Cell cell){
 		cells.remove(cell);
 		System.out.println(cells.size());
 		if(cells.size() == 0) {

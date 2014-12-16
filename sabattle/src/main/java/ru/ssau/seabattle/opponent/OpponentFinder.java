@@ -9,12 +9,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class OpponentFinder implements Runnable {
 
-	private ArrayList<String> oponentsFinded;
+	private HashSet<String> oponentsFinded;
 	private ReentrantLock opLock;
 	private long time;
 	
@@ -24,6 +24,7 @@ public class OpponentFinder implements Runnable {
 	
 	public OpponentFinder(long time, ServerSocket server){
 		opLock = new ReentrantLock();
+		oponentsFinded = new HashSet<String>();
 		this.time = time;
 		this.server = server;
 		try {
@@ -58,9 +59,9 @@ public class OpponentFinder implements Runnable {
 		}
 	}
 
-	public ArrayList<String> getOponentsFinded() {
+	public HashSet<String> getOponentsFinded() {
 		opLock.lock();
-		ArrayList<String> buf = oponentsFinded;
+		HashSet<String> buf = oponentsFinded;
 		opLock.unlock();
 		return buf;
 	}

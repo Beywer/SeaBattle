@@ -47,9 +47,13 @@ public class Cell {
 			case MISS:{
 				return ShootState.MISS;				
 			}
-			default : {
+			case SHIP : {
 				state  = CellState.INJURED;
-				return ship.checkShoot(this);
+				return ship.shipShoot(this);
+			}
+			default : {
+				assert false;
+				return null;
 			}
 		}
 	}

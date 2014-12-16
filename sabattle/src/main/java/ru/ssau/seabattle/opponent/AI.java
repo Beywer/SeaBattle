@@ -3,10 +3,10 @@ package ru.ssau.seabattle.opponent;
 import java.util.ArrayList;
 import java.util.Random;
 
+import ru.ssau.seabattle.core.Cell;
 import ru.ssau.seabattle.core.CellState;
 import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
-import ru.ssau.seabattle.core.ShipState;
 import ru.ssau.seabattle.core.ShootState;
 
 public class AI{
@@ -18,8 +18,7 @@ public class AI{
 	private boolean isFinishOff;
 	private boolean isDirectionRight;
 	private int dx,dy;
-	private int firstX,firstY;	
-	private int nextX,nextY;
+	private int firstX,firstY;
 	private Coordinate lastShoot;
 	private ShootState lastShootState;
 	
@@ -45,105 +44,103 @@ public class AI{
 	}
 	
 	private ShootState makeMiddleLevelTurn(){
-		if(isFinishOff){ //Если идет добивание
-			if(lastShootState != ShootState.MISS){//Если при добивании не был промах, то стреляем дльше
-				int x = lastShoot.getX() + dx;
-				int y = lastShoot.getY() + dy;
-				if(x > 0 && y > 0 && x < 10 &&y < 10){
-					lastShoot = new Coordinate(x, y); //Запоминаем послендний выстрел
-					lastShootState = playerField.shoot(x, y);
-					if(lastShootState == ShootState.INJURED) isDirectionRight =  true;//правильно выбрано напрвление
-					if(lastShootState == ShootState.DEAD) {
-						isFinishOff = false;//Конец добивания
-						isDirectionRight = false;
-					}
-				}
-				else{
-					//изеняем напрвление на проитвоположное.
-					dx*=-1;
-					dx*=-1;
-					//Возвращаяемя назад по раненым палубам
-					x = lastShoot.getX() + dx;
-					y = lastShoot.getY() + dy;
-					while(playerField.getCell(x, y).getState() == CellState.INJURED){
-						x+=dx;
-						y+=dy;
-					}
-					lastShootState = playerField.shoot(x, y);
-					if(lastShootState == ShootState.DEAD) isFinishOff = false;//Конец добивания
-				}
-			}
-			else{//Если промахулись 
-				if(isDirectionRight) //Если направлиени при этом выбрано правильно
-				{
-					//изеняем напрвление на проитвоположное.
-					dx*=-1;
-					dx*=-1;
-					//Возвращаяемя назад по раненым палубам
-					int x = lastShoot.getX() + dx;
-					int y = lastShoot.getY() + dy;
-					while(playerField.getCell(x, y).getState() == CellState.INJURED){
-						x+=dx;
-						y+=dy;
-					}
-					lastShootState = playerField.shoot(x, y);
-					if(lastShootState == ShootState.DEAD) isFinishOff = false;//Конец добивания
-				}
-				else{
-					//Заного ищем направление
-					choosDirection();
-					int x = firstX + dx;
-					int y = firstY + dy;
-					lastShoot = new Coordinate(x, y); //Запоминаем послендний выстрел
-					lastShootState = playerField.shoot(x, y);
-					if(lastShootState == ShootState.INJURED) isDirectionRight =  true;//правильно выбрано напрвление
-					if(lastShootState == ShootState.DEAD) {
-						isFinishOff = false;//Конец добивания
-						isDirectionRight = false;
-					}
-				}
-					
-			}
-			return lastShootState;
+		
+		if(isFinishOff){ // Если добивание
+			return finishOff();
 		}
-		else{ //Если не идет добивание, то выстрел - рандом
+		else{ // Если не добивание
 			Random r = new Random();
-			int x = r.nextInt(10); 
-			int y = r.nextInt(10);
-			lastShoot = new Coordinate(x, y); //Запоминаем послендний выстрел
-			lastShootState = playerField.shoot(x, y);			
-			if(lastShootState == ShootState.INJURED){//Если ранили
-				isFinishOff = true; //то включаем добивание
-				firstX = x;//Запоминаем координаты удачного выстрела
+			//Выстрел в рандомную клетку без повторения выстрелов
+			Coordinate nextCell = cells.get(r.nextInt(cells.size()));
+			int y = nextCell.getY();
+			int x = nextCell.getX();
+			cells.remove(nextCell);
+			lastShoot = new Coordinate(x, y);
+			lastShootState = playerField.shoot(x, y);
+			if(lastShootState == ShootState.INJURED){
+				isFinishOff = true;  //Начинаем добивание, если ранен
+				firstX = x;
 				firstY = y;
-				choosDirection(); //Ищем напрвеление следующего выстрела
+				choosDirection(); //Bыбираем направление для следующего выстрела
 			}
 			return lastShootState;
 		}
 	}
 	
-	private void choosDirection(){
-		
+	private ShootState finishOff() {
+		int x = 0;
+		int y = 0;
+		if(isDirectionRight){//Если направление уже выбрано 
+			if(lastShootState == ShootState.MISS){ //и при этом промах, то стреляем в другую сторону
+				dx = 0 - dx;
+				dy = 0 - dy;
+				x = firstX + dx;
+				y = firstY + dy;
+				deleteCell(x,y);
+				lastShoot = new Coordinate(x, y);
+				lastShootState = playerField.shoot(x, y);
+				if(lastShootState == ShootState.DEAD){
+					isDirectionRight = false;
+					isFinishOff = false;
+				}
+				return lastShootState;
+			}
+			else{ // то продолжаем стрелять дальше
+				x = lastShoot.getX() + dx;
+				y = lastShoot.getY() + dy;
+				String str = String.valueOf(y+1)+ " " + String.valueOf((char)(x + 'A')) ;
+				System.out.println(str + "то продолжаем стрелять дальше");
+				System.out.println("isDirectionRight " + isDirectionRight);
+				if(x < 0 || y < 0 || x > 9 || y > 9) //край корабля упирается в границу поля
+				{
+					System.out.println("isDirectsdfsdfsdfFFFFFFFFFFFFionRight " + isDirectionRight);
+					dx = 0 - dx;
+					dy = 0 - dy;
+					x = firstX + dx;
+					y = firstY + dy;
+				}
+				deleteCell(x,y);
+				lastShoot = new Coordinate(x, y);
+				lastShootState = playerField.shoot(x, y);
+				if(lastShootState == ShootState.DEAD){
+					isDirectionRight = false;
+					isFinishOff = false;
+				}
+				return lastShootState;
+			}
+		}
+		else{ //Если напрвление еще не достоверно
+			//Делаем выстрел, и выясняем, правильно ли оно выбрано
+			x = firstX + dx;
+			y = firstY + dy;
+			deleteCell(x,y);
+			lastShoot = new Coordinate(x, y);
+			lastShootState = playerField.shoot(x, y);
+			if(lastShootState == ShootState.MISS){ //Если промах, то ошибка при выборе направления
+				choosDirection();
+			}
+			if(lastShootState == ShootState.INJURED){ //Если же попали, значит нужно дальше бить в этом направлении
+				isDirectionRight = true;
+			}
+			if(lastShootState == ShootState.DEAD){ //Если же попали, значит нужно дальше бить в этом направлении
+				isFinishOff = false;
+			}
+			return lastShootState;
+		}				
+	}
+
+	private void choosDirection(){		
 		Random r= new Random();
-		
-		System.out.println(firstX + " " + firstY);
-		if(firstX - 1 > 0)
-			System.out.print(playerField.getCell(firstX - 1, firstY).getState());
-		if(firstY - 1 > 0)
-			System.out.print(playerField.getCell(firstX, firstY - 1).getState());
-		if(firstX + 1 > 10)
-			System.out.print(playerField.getCell(firstX + 1, firstY).getState());
-		if(firstY + 1 < 10)
-			System.out.println(playerField.getCell(firstX, firstY + 1).getState());
-		
 		dx = 0; dy= 0;
 		int temp = 0;
 		CellState state = CellState.SEA;
+		
 		while(dx + dy == 0){ //пока не выбрано напрвление
+			
 			temp = r.nextInt(4); //Случайным образом определяем напрвлени
 			switch(temp){
 				case 0:{//Влево
-					if(firstX - 1 > 0){
+					if(firstX - 1 >= 0){
 						state = playerField.getCell(firstX - 1, firstY).getState();
 						if(state != CellState.INJURED && state != CellState.MISS)
 							dx = -1;
@@ -152,7 +149,7 @@ public class AI{
 				}
 				break;
 				case 1:{//Вверх
-					if(firstY - 1 > 0){
+					if(firstY - 1 >= 0){
 						state = playerField.getCell(firstX, firstY  - 1).getState();
 						if(state != CellState.INJURED && state != CellState.MISS)
 							dy = -1;
@@ -196,5 +193,15 @@ public class AI{
 	}
 	public Coordinate getLastHit() {
 		return lastShoot;
+	}
+	
+	private void deleteCell(int x, int y){
+		for(Coordinate coord : cells){
+			if(coord.getX() == x && coord.getY() == y){
+				cells.remove(coord);
+				break;
+			}
+		}
+
 	}
 }

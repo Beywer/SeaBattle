@@ -211,17 +211,25 @@ public class Field {
 	
 	//TODO  delete this method
 	public void print(){
+
+		System.out.print("		||--||		 	A B C D E F G H I J\n");
 		for(int j = 0; j < 10 ; j++){
+			System.out.print("		||--||		" + j + "	");
 			for(int i = 0; i < 10 ; i++){
-				if(cells[i][j].getState() == CellState.SEA) System.out.print('#');
-				else System.out.print('*');
+				switch(cells[i][j].getState()){
+				case SEA : System.out.print("\u25FB  ");
+				break;
+				case INJURED : System.out.print("X ");
+				break;
+				case MISS : System.out.print("\u29C8  ");
+				break;
+				case SHIP : System.out.print("\u25A3  ");
+				break;
+				default : assert false;
+				}
 			}
-			System.out.print('\n');
-		}
-		int size = ships.size();
-		System.out.print(ships.size());
-		for(int i = 0; i < size; i++){
-			System.out.println(ships.get(i));
+
+			System.out.print("\n");
 		}
 	}
 	
