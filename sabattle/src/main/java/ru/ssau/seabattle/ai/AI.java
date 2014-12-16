@@ -41,6 +41,7 @@ public class AI implements TurnMaker {
 		Random r = new Random();
 		int x = r.nextInt(10); 
 		int y = r.nextInt(10);
+		lastHit = new Coordinate(x, y);
 		return playerField.shoot(x, y);
 	}
 	
@@ -58,5 +59,8 @@ public class AI implements TurnMaker {
 			case MIDDLE:{return makeMiddleLevelTurn();}
 			default:{return makeHardLevelTurn();}
 		}
+	}
+	public Coordinate getLastHit() {
+		return lastHit;
 	}
 }
