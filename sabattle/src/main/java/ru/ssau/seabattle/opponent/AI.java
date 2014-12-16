@@ -26,16 +26,16 @@ public class AI{
 	private ShootState lastShootState;
 	
 	private void fillmass(){
-		find4[0][0]	=0; find4[0][1]=0;
-		find4[1][0]	=1; find4[1][1]=1;
-		find4[2][0]	=2; find4[2][1]=2;
-		find4[3][0]	=3; find4[3][1]=3;
-		find4[4][0]	=4; find4[4][1]=4;
-		find4[5][0]	=5; find4[5][1]=5;
-		find4[6][0]	=6; find4[6][1]=6;
-		find4[7][0]	=7; find4[7][1]=7;
-		find4[8][0]	=8; find4[8][1]=8;
-		find4[9][0]	=9; find4[9][1]=9;
+		find4[0][0]=0; find4[0][1]=0;
+		find4[1][0]=1; find4[1][1]=1;
+		find4[2][0]=2; find4[2][1]=2;
+		find4[3][0]=3; find4[3][1]=3;
+		find4[4][0]=4; find4[4][1]=4;
+		find4[5][0]=5; find4[5][1]=5;
+		find4[6][0]=6; find4[6][1]=6;
+		find4[7][0]=7; find4[7][1]=7;
+		find4[8][0]=8; find4[8][1]=8;
+		find4[9][0]=9; find4[9][1]=9;
 		find4[10][0]=0; find4[10][1]=4;
 		find4[11][0]=1; find4[11][1]=5;
 		find4[12][0]=2; find4[12][1]=6;
