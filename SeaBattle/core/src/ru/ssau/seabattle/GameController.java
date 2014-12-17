@@ -7,11 +7,15 @@ import ru.ssau.seabattle.opponent.Level;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -24,6 +28,8 @@ public class GameController implements Screen {
 	private Skin skin;
 	private ru.ssau.seabattle.game.Game game;
 	private Texture sea,inj,miss,ship;
+	private Label yourTurn,oppTurn;
+	private BitmapFont font;
 	
 	private GameType type;
 	private Level level;
@@ -60,12 +66,17 @@ public class GameController implements Screen {
 		
 		myTurn = true;		
 		
-		stage.addActor(background);
+		font = new BitmapFont(Gdx.files.internal("font/font.fnt"));
+		LabelStyle labelStyle = new LabelStyle(font, Color.WHITE);
+		yourTurn = new Label("Ваш ход : ",	labelStyle);
+		oppTurn = new Label("Ход противника : ", labelStyle);
 		
+		stage.addActor(background);
+		stage.addActor(yourTurn);
+		yourTurn.setPosition(200, 500);
 		stage.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-//				System.out.println(x + " " + y);
 				makeTurn(x, y);
 			}
 		});
@@ -163,6 +174,7 @@ public class GameController implements Screen {
 			ShootState state = ShootState.MISS;
 			if(fx >= 0 && fy >=0 && fx < 10 && fy < 10)
 				state = game.myShoot(fx, fy);
+			yourTurn.setText("Ваш ход : " + (char)(fx + 'A') + " "+ (fy+1));
 			if(state == ShootState.INJURED || state == ShootState.DEAD)
 				myTurn = true;
 			else  
