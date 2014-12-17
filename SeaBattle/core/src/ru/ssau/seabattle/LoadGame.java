@@ -1,8 +1,5 @@
 package ru.ssau.seabattle;
 
-import aurelienribon.tweenengine.Tween;
-import aurelienribon.tweenengine.TweenManager;
-
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
@@ -10,7 +7,6 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -33,7 +29,7 @@ public class LoadGame implements Screen {
 	private List<String> list;
 	private Label header;
 	private TextButton butContinue, butBack;
-	TweenManager tweenManager;
+	private BitmapFont butFont, headerFont;
 	
 	int i = 30;
 	float time = 0;;
@@ -42,8 +38,6 @@ public class LoadGame implements Screen {
 	public void render(float delta) {
 		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);				
-		
-		tweenManager.update(delta);
 		
 		stage.act();
 		stage.draw();
@@ -59,8 +53,7 @@ public class LoadGame implements Screen {
 		stage = new Stage();
 		
 		//Textures
-		TextureAtlas atlas = new TextureAtlas("button/Buttons.pack");
-		Skin skin = new Skin(atlas);
+		Skin skin = new Skin();
 		Texture texture = new Texture("pane/hScroll.png");
 		skin.add("hScroll", texture);
 		texture = new Texture("pane/vScroll.png");
@@ -72,7 +65,13 @@ public class LoadGame implements Screen {
 		texture = new Texture("pane/paneBack.png");
 		skin.add("paneBack", texture);
 		skin.add("back", new Texture("back.png"));
+		skin.add("but_d", new Texture("button/but_d.png"));
+		skin.add("but_up", new Texture("button/but_up.png"));
 				
+		//Fonts
+		butFont = new BitmapFont(Gdx.files.internal("font/butFont.fnt"));
+		headerFont = new BitmapFont(Gdx.files.internal("font/font.fnt"));
+		
 		//Scroll pane
 		style = new ScrollPaneStyle(
 				skin.getDrawable("paneBack")
@@ -81,9 +80,7 @@ public class LoadGame implements Screen {
 				, skin.getDrawable("vScroll")
 				, skin.getDrawable("vScrollKnob"));
 		
-		ListStyle listStyle = new ListStyle(
-				new BitmapFont(Gdx.files.internal("font/font.fnt"), false)
-				, Color.RED, Color.WHITE, skin.getDrawable("vScroll"));
+		ListStyle listStyle = new ListStyle(butFont , Color.RED, Color.WHITE, skin.getDrawable("vScroll"));
 		
 		list = new List<String>(listStyle);
 		list.setItems("sdf","sdf2","sdf3","sdf4","sdf5","sdf6","sdf7"
@@ -96,10 +93,9 @@ public class LoadGame implements Screen {
 		pane.setSize(700, 350);
 			
 		//Font and header
-		BitmapFont font = new BitmapFont(Gdx.files.internal("font/font.fnt"));
-		LabelStyle labelStyle = new LabelStyle(font, Color.WHITE);
+		LabelStyle labelStyle = new LabelStyle(headerFont , Color.WHITE);
 		header = new Label("Загрузка игры", labelStyle);
-		header.setFontScale(1.5f);
+		header.setFontScale(1);
 		
 		//Buttons
 		
@@ -108,13 +104,15 @@ public class LoadGame implements Screen {
 		
 		TextButtonStyle textButtonStyle = new TextButtonStyle();
 		textButtonStyle.up = skin.getDrawable("but_up");
-		textButtonStyle.down = skin.getDrawable("but_down");
+		textButtonStyle.down = skin.getDrawable("but_d");
 		textButtonStyle.pressedOffsetX = 1;
 		textButtonStyle.pressedOffsetY = -2;
-		textButtonStyle.font = font;
+		textButtonStyle.font = butFont;
+		textButtonStyle.fontColor = Color.BLACK;
 		
-		butContinue = new TextButton("   Продолжить игру   ", textButtonStyle);
-		butContinue.pad(0, 70, 4, 70);
+		butContinue = new TextButton("    Продолжить игру    ", textButtonStyle);
+		butContinue.pad(2, 100, 15, 100);
+		butContinue.setBounds(0, 0, 400, 100);
 
 		butBack = new TextButton("Назад", textButtonStyle);
 		butBack.pad(0, 70, 4, 70);
@@ -126,10 +124,11 @@ public class LoadGame implements Screen {
 		});
 
 		//Размещение элементов
-		table.pad(20);
-		table.add(butContinue).left().bottom();
-		table.add(butBack).right().bottom();
-		table.getCell(butContinue).spaceRight(300);
+//		table.pad(20);
+//		table.add(butContinue);//.left().bottom();
+//		table.add(butBack);//.right().bottom();
+//		table.getCell(butContinue).spaceRight(300);
+//		table.set
 		
 		Table background = new Table(skin);
 		background.setBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
@@ -138,12 +137,18 @@ public class LoadGame implements Screen {
 		stage.addActor(background);
 		stage.addActor(pane);
 		stage.addActor(header);
-		stage.addActor(table);
-		pane.setPosition(150, 150);
-		header.setPosition(450 - header.getWidth()/2, 700);
-		tweenManager = new TweenManager();
-			
-		Tween.to(header, ActorAccessor.Y, 1).target(540).start(tweenManager);		
+		
+		stage.addActor(butContinue);
+		butContinue.setBounds(20,15, 400, 100);
+		
+		stage.addActor(butBack);
+		butBack.setBounds(580, 15, 400, 100);
+		
+		pane.setPosition(150, 135);
+		header.setFontScale(1);
+		header.setPosition(20, 20);
+		header.setPosition(500 - header.getWidth()/2, 500);
+	
 		Gdx.input.setInputProcessor(stage);
 		
 	}

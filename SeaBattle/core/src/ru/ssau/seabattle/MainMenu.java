@@ -1,7 +1,5 @@
 package ru.ssau.seabattle;
 
-import aurelienribon.tweenengine.Timeline;
-import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenManager;
 
 import com.badlogic.gdx.Game;
@@ -12,7 +10,6 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -31,7 +28,7 @@ public class MainMenu implements Screen {
 	private Table table;
 	private TextButton buttonPlay,buttonExit, butDownload, butAbout, butTeam;
 	private Label heading;
-	private BitmapFont font;
+	private BitmapFont font, butFont;
 	private TextureAtlas atlas;
 	private TweenManager tweenManager;
 	
@@ -56,10 +53,12 @@ public class MainMenu implements Screen {
 	@Override
 	public void show() {
 		font = new BitmapFont(Gdx.files.internal("font/font.fnt"), false);//Здесь false-y ось нарпавлена вверх
+		butFont = new BitmapFont(Gdx.files.internal("font/butFont.fnt"), false);//Здесь false-y ось нарпавлена вверх
 		
-		atlas = new TextureAtlas("button/Buttons.pack");
-		skin = new Skin(atlas);
+		skin= new Skin();
 		skin.add("back", new Texture("back.png"));
+		skin.add("but_down", new Texture("button/but_d.png"));
+		skin.add("but_up", new Texture("button/but_up.png"));
 		
 		stage = new Stage();
 
@@ -77,10 +76,11 @@ public class MainMenu implements Screen {
 		textButtonStyle.down = skin.getDrawable("but_down");
 		textButtonStyle.pressedOffsetX = 1;
 		textButtonStyle.pressedOffsetY = -2;
-		textButtonStyle.font = font;
+		textButtonStyle.font = butFont;
 		
 		buttonExit = new TextButton("        Выход        ", textButtonStyle);
 		buttonExit.pad(0, 80, 20, 80);
+		buttonExit.setSize(20, 20);
 		buttonExit.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
@@ -117,7 +117,7 @@ public class MainMenu implements Screen {
 		//Create heading
 		LabelStyle headingStyle = new LabelStyle(font, Color.WHITE);
 		heading = new Label("Морской бой", headingStyle);
-		heading.setFontScale(2);
+		heading.setFontScale(1);
 		heading.setColor(Color.WHITE);
 		
 		//Filling the table
@@ -144,11 +144,6 @@ public class MainMenu implements Screen {
 		
 		//Creating animation
 		tweenManager = new TweenManager();
-		Tween.registerAccessor(Actor.class, new ActorAccessor());
-						
-//		Tween.from(table, ActorAccessor.ALPHA, 1).target(0).start(tweenManager);
-//		Tween.from(table, ActorAccessor.Y, 2).target(Gdx.graphics.getWidth()/4).start(tweenManager);
-//		Gdx.app.log("sdf",String.valueOf(buttonPlay.getX()));
 	}
 
 	@Override

@@ -13,7 +13,7 @@ public class Net {
 
 	private Socket socket;
 	private ServerSocket server;
-	private OpponentFinder opFinder;
+	private ServerFinder opFinder;
 	
 	private HashSet<String> aviableOpponents;
 	
@@ -43,7 +43,7 @@ public class Net {
 	public void findOpponents(){
 		
 		aviableOpponents.clear();		
-		opFinder = new OpponentFinder(15000, server);
+		opFinder = new ServerFinder(15000, server);
 	}
 
 	public HashSet<String> getAviableOpponents() {
