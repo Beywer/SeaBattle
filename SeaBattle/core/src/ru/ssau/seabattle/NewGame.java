@@ -124,7 +124,7 @@ public class NewGame implements Screen {
 		
 		
 		//PANE CLICK
-		level = Level.LOW;
+		level = Level.MIDDLE;
 		type = GameType.SINGLE;
 		net = Net.SERVER;
 		
@@ -147,8 +147,10 @@ public class NewGame implements Screen {
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
 				createGame();
+//				dispose();
 				hide();
-				((Game)Gdx.app.getApplicationListener()).setScreen(new FieldCreator(game, type));
+//				((Game)Gdx.app.getApplicationListener()).setScreen(new FieldCreator(null,null));
+				((Game)Gdx.app.getApplicationListener()).setScreen(new GameController(type, level, game));
 			}
 		});
 		
@@ -245,6 +247,7 @@ public class NewGame implements Screen {
 	private void createSingleGame(){
 		Field myField, opponentField;
 		myField = new Field();
+		myField.generate();
 		opponentField = new Field();
 		opponentField.generate();
 		AI opponent = new AI(level, myField);

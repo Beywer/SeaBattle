@@ -42,14 +42,14 @@ public class FieldCreator implements Screen {
 		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		
+		
+		stage.act();
+		stage.draw();
 		batch.begin();
 		
 		batch.draw(new Texture("field/sea.png"), 20, 20);
 		
 		batch.end();
-		
-		stage.act();
-		stage.draw();
 	}
 
 	@Override
@@ -86,7 +86,7 @@ public class FieldCreator implements Screen {
 		
 		stage.addActor(backgrond);
 		
-		stage.addActor(ship);
+//		stage.addActor(ship);
 		
 		Gdx.input.setInputProcessor(stage);
 		
