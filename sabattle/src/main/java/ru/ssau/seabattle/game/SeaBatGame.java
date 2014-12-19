@@ -1,6 +1,7 @@
 package ru.ssau.seabattle.game;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import ru.ssau.seabattle.core.CellState;
 import ru.ssau.seabattle.core.Coordinate;
@@ -19,10 +20,21 @@ public class SeaBatGame{
 
 	public SeaBatGame(){
 		gameHistory = new ArrayList<Shoot>();
+		gameEnded = false;
 	}
 	
 	public TurnToken getTurnToken() {
 		return turnToken;
+	}
+	/**
+	 * Определяет: кому принадлежит первый выстрел.
+	 */
+	public void chooseFirstShooter(){
+		Random r = new Random();
+		if(r.nextBoolean())
+			turnToken = TurnToken.MY;
+		else
+			turnToken = TurnToken.OPPONENT;
 	}
 
 	public void myShoot(int x, int y) {

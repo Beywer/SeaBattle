@@ -2,6 +2,7 @@ package ru.ssau.seabattle;
 
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.game.OLDSingleGame;
+import ru.ssau.seabattle.game.SeaBatGame;
 import ru.ssau.seabattle.opponent.OLDAI;
 import ru.ssau.seabattle.opponent.Level;
 import aurelienribon.tweenengine.TweenManager;
@@ -146,11 +147,18 @@ public class NewGame implements Screen {
 		butNewGame.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-				createGame();
-//				dispose();
-				hide();
 //				((Game)Gdx.app.getApplicationListener()).setScreen(new FieldCreator(null,null));
-				((Game)Gdx.app.getApplicationListener()).setScreen(new GameController(type, level, game));
+				SeaBatGame game = new SeaBatGame();
+				Field field = new Field();
+				field.generate();
+				game.setMyField(field);
+				field = new Field();
+				field.generate();
+				game.setOpponentField(field);
+				
+				game.chooseFirstShooter();
+				
+				((Game)Gdx.app.getApplicationListener()).setScreen(new GameScreen(game));
 			}
 		});
 		

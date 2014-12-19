@@ -6,8 +6,6 @@ public class SeaBattle implements ApplicationListener {
 
 	@Override
 	public void create() {
-		// TODO Auto-generated method stub
-
 	}
 
 	@Override

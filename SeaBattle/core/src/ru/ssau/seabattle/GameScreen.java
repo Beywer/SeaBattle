@@ -15,7 +15,7 @@ public class GameScreen implements Screen {
 	private Stage stage;
 	private Table background;
 	private Skin skin;
-	private Texture sea, miss, inj, ship;
+	private Texture sea, miss, inj, ship, back;
 	
 	private SeaBatGame game;
 
@@ -32,14 +32,26 @@ public class GameScreen implements Screen {
 		stage = new Stage();
 		
 		//TEXTURES
-		sea = new Texture("");
+		sea = new Texture("field/sea.png");
+		inj = new Texture("field/inj.png");
+		ship = new Texture("field/ship.png");
+		miss = new Texture("field/miss.png");
+		back = new Texture("back.png");
 		
 		//SKIN
 		skin = new Skin();
-//		skin.a
-		
+		skin.add("sea", sea);
+		skin.add("inj", inj);
+		skin.add("ship", ship);
+		skin.add("miss", miss);
+		skin.add("back", back);
+
 		//BACKGROUND
 		background = new Table(skin);
+		background.setBackground(skin.getDrawable("back"));
+		
+		
+		stage.addActor(background);
 		
 	}
 	
