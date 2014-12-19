@@ -2,13 +2,13 @@ package ru.ssau.seabattle.game;
 
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
-
-public class NetGame implements Game {
+//ГОВНОКЛАСС//ГОВНОКЛАСС//ГОВНОКЛАСС//ГОВНОКЛАСС//ГОВНОКЛАСС//ГОВНОКЛАСС
+public class OLDNetGame implements Game {
 
 	
 	private Field myField,opponentField;
 	
-	public NetGame(){
+	public OLDNetGame(){
 		
 	}
 	

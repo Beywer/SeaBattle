@@ -1,10 +1,12 @@
 package ru.ssau.seabattle.core;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Field {
+public class Field implements Serializable {
 	
+	private static final long serialVersionUID = 3732389266114014786L;
 	private Cell[][] cells = new Cell[10][10];
 	private ArrayList<Ship> ships;
 	private ShipState lastState;
@@ -17,7 +19,7 @@ public class Field {
 		}
 		ships = new ArrayList<Ship>();
 	}
-		
+	
 	/**
 	 * Создает корабль на поле, если это возможно.
 	 * @param x

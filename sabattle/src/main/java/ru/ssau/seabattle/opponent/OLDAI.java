@@ -8,12 +8,11 @@ import ru.ssau.seabattle.core.CellState;
 import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
-import ru.ssau.seabattle.game.SeaBatGame;
-import ru.ssau.seabattle.game.TurnToken;
 
-public class AI implements Runnable {
+public class OLDAI implements OpponentTurnGetter{
 
 	private Level level;
+	private ArrayList<Coordinate> cells; 
 	private int[][] find4=new int[26][2];
 	private int[][] find3=new int[34][2];
 	private int[][] find2=new int[50][2];
@@ -24,10 +23,6 @@ public class AI implements Runnable {
 	private int firstX,firstY;
 	private Coordinate lastShoot;
 	private ShootState lastShootState;
-	
-	//Новые переменные	
-	private SeaBatGame game;
-	private ArrayList<Coordinate> cells;
 	
 	private void fillmass(){
 		find4[0][0]=0; find4[0][1]=0;
@@ -147,25 +142,25 @@ public class AI implements Runnable {
 		
 	}
 	
-	public AI(SeaBatGame game, Level level){
-		this.game = game;
+	public OLDAI(Level level,Field field){
 		this.level = level;
-	}
-	
-	private void makeLowLevelTurn(){
-		//Пока ходит оппонент.
-		while(game.getTurnToken() == TurnToken.OPPONENT){
-			Random r = new Random();
-			//Получаем списко возможных ходов.
-			cells = game.getFreeCells();
-			//Выбираем слуючайную клетку.
-			int size = cells.size();
-			int next = r.nextInt(size);
-			Coordinate cell = cells.get(next);
-			int y = cell.getY();
-			int x = cell.getX();
-			game.opponentShoot(x, y);
+		this.playerField = field;
+		cells = new ArrayList<Coordinate>();
+		for(int i=0;i<10;i++){
+			for(int j=0;j<10;j++){
+				cells.add(new Coordinate(i, j));
+			}
 		}
+		isFinishOff = false;
+		isDirectionRight = false;
+	}
+
+	private ShootState makeLowLevelTurn(){
+		Random r = new Random();
+		int x = r.nextInt(10); 
+		int y = r.nextInt(10);
+		lastShoot = new Coordinate(x, y);
+		return playerField.shoot(x, y);
 	}
 	
 	private ShootState makeMiddleLevelTurn(){
@@ -309,11 +304,11 @@ public class AI implements Runnable {
 		return null;
 	}
 	
-	public void makeNextTurn() {
+	public ShootState makeNextTurn() {
 		switch(level){
-			case LOW:{ makeLowLevelTurn();}
-			case MIDDLE:{ makeMiddleLevelTurn();}
-			default:{ makeHardLevelTurn();}
+			case LOW:{return makeLowLevelTurn();}
+			case MIDDLE:{return makeMiddleLevelTurn();}
+			default:{return makeHardLevelTurn();}
 		}
 	}
 	public Coordinate getLastHit() {
@@ -328,13 +323,5 @@ public class AI implements Runnable {
 			}
 		}
 
-	}
-	
-	@Override
-	public void run() {
-		//Пока игра не кончилась, делаем следующий выстрел.
-		while(!game.isGameEnded()){
-			makeNextTurn();
-		}		
 	}
 }

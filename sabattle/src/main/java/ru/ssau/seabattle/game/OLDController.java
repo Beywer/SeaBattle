@@ -1,10 +1,10 @@
 package ru.ssau.seabattle.game;
 
-public class Controller {
+public class OLDController {
 	
 	private Game game;
 	 
-	public Controller(){
+	public OLDController(){
 		 
 	}
 

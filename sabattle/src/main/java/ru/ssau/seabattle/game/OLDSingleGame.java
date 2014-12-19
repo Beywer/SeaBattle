@@ -2,17 +2,17 @@ package ru.ssau.seabattle.game;
 
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
-import ru.ssau.seabattle.opponent.AI;
+import ru.ssau.seabattle.opponent.OLDAI;
 
 
-public class SingleGame implements Game {
+public class OLDSingleGame implements Game {
 	
-	private AI opponent;
+	private OLDAI opponent;
 	private Field myField;
 	private Field opponentField;
 	private boolean turn;
 	
-	public SingleGame(AI opponent, Field myField, Field opponentField ){
+	public OLDSingleGame(OLDAI opponent, Field myField, Field opponentField ){
 		this.opponent = opponent;
 		this.myField = myField;
 		this.opponentField = opponentField;		

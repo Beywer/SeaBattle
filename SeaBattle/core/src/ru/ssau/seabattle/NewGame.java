@@ -1,8 +1,8 @@
 package ru.ssau.seabattle;
 
 import ru.ssau.seabattle.core.Field;
-import ru.ssau.seabattle.game.SingleGame;
-import ru.ssau.seabattle.opponent.AI;
+import ru.ssau.seabattle.game.OLDSingleGame;
+import ru.ssau.seabattle.opponent.OLDAI;
 import ru.ssau.seabattle.opponent.Level;
 import aurelienribon.tweenengine.TweenManager;
 
@@ -250,7 +250,7 @@ public class NewGame implements Screen {
 		myField.generate();
 		opponentField = new Field();
 		opponentField.generate();
-		AI opponent = new AI(level, myField);
-		game = new SingleGame(opponent, myField, opponentField);
+		OLDAI opponent = new OLDAI(level, myField);
+		game = new OLDSingleGame(opponent, myField, opponentField);
 	}
 }

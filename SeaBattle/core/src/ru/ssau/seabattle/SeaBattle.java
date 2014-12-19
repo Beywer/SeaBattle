@@ -1,36 +1,43 @@
 package ru.ssau.seabattle;
 
-import com.badlogic.gdx.Game;
+import com.badlogic.gdx.ApplicationListener;
 
-public class SeaBattle extends Game {
-	
-	@Override
-	public void create () {
-		setScreen(new MainMenu());
-	}
+public class SeaBattle implements ApplicationListener {
 
 	@Override
-	public void render () {
-		super.render();
+	public void create() {
+		// TODO Auto-generated method stub
+
 	}
-	
-	@Override
-	public void dispose() {
-		super.dispose();
-	}
-	
+
 	@Override
 	public void resize(int width, int height) {
-		super.resize(width, height);
+		// TODO Auto-generated method stub
+
 	}
-	
+
+	@Override
+	public void render() {
+		// TODO Auto-generated method stub
+
+	}
+
 	@Override
 	public void pause() {
-		super.pause();
+		// TODO Auto-generated method stub
+
 	}
-	
+
 	@Override
 	public void resume() {
-		super.resume();
+		// TODO Auto-generated method stub
+
 	}
+
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+
+	}
+
 }

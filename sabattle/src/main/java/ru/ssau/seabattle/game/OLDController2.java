@@ -6,15 +6,15 @@ import java.net.ServerSocket;
 import java.util.HashSet;
 
 import ru.ssau.seabattle.core.Field;
-import ru.ssau.seabattle.opponent.AI;
+import ru.ssau.seabattle.opponent.OLDAI;
 import ru.ssau.seabattle.opponent.Level;
 import ru.ssau.seabattle.opponent.ServerFinder;
 
-public class Controller2 {
+public class OLDController2 {
 
 	private static Field myField,opponentField;
-	private static AI opponent;
-	private static SingleGame game;
+	private static OLDAI opponent;
+	private static OLDSingleGame game;
 	private static boolean flag;
 	
 	public static void main(String[] args) throws IOException, InterruptedException {

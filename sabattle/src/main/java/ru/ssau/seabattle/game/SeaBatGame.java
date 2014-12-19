@@ -1,39 +1,88 @@
 package ru.ssau.seabattle.game;
 
+import java.util.ArrayList;
+
+import ru.ssau.seabattle.core.CellState;
+import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
+import ru.ssau.seabattle.core.Shoot;
 import ru.ssau.seabattle.core.ShootState;
 
-public class SeaBatGame implements Game {
+public class SeaBatGame{
 	
-	private boolean gameEnd;
-	private TurnToken turnToken;
+	private transient boolean opponentFinded, opponentReady;
 
-	public boolean isGameEnd() {
-		return gameEnd;
+	private boolean gameEnded;
+	private Field opponentField, myField;
+	private ArrayList<Shoot> gameHistory;
+	private TurnToken turnToken;	
+
+	public SeaBatGame(){
+		gameHistory = new ArrayList<Shoot>();
 	}
 	
 	public TurnToken getTurnToken() {
 		return turnToken;
 	}
 
-	public ShootState myShoot(int x, int y) {
-		return null;
+	public void myShoot(int x, int y) {
+		opponentField.shoot(x, y);
 	}
 
 	public ShootState opponentShoot(int x, int y) {
-		return null;
+		ShootState state = myField.shoot(x, y);
+		return state;
 	}
 
+	/**
+	 * Возвращает список непростеленных клеток для ИИ.
+	 * @return Список клеток.
+	 */
+	public ArrayList<Coordinate> getFreeCells(){
+		ArrayList<Coordinate> freeCells = new ArrayList<Coordinate>();
+		for(int i =0; i < 10; i++)
+			for(int j = 0; j < 10; j++){
+				CellState state = opponentField.getCell(i, j).getState();
+				if(state == CellState.SEA || state == CellState.SHIP)
+					freeCells.add(new Coordinate(i, j));
+			}
+		return freeCells;
+	}
+	
+	//===========================================
+	//			GETTERS AND SETTERS
+	//===========================================
 	public Field getMyField() {
-		return null;
+		return myField;
 	}
-
 	public Field getOpponentField() {
-		return null;
+		return opponentField;
+	}
+	public boolean isOpponentFinded() {
+		return opponentFinded;
+	}
+	public void setOpponentFinded(boolean opponentFinded) {
+		this.opponentFinded = opponentFinded;
+	}
+	public boolean isOpponentReady() {
+		return opponentReady;
+	}
+	public void setOpponentReady(boolean opponentReady) {
+		this.opponentReady = opponentReady;
 	}
 
-	public ShootState opponentShoot() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setOpponentField(Field opponentField) {
+		this.opponentField = opponentField;
+	}
+
+	public void setMyField(Field myField) {
+		this.myField = myField;
+	}
+	public boolean isGameEnded() {
+		return gameEnded;
+	}
+
+	public ArrayList<Shoot> getGameHistory() {
+		return gameHistory;
 	}
 }

@@ -8,7 +8,7 @@ import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
 import ru.ssau.seabattle.opponent.OpponentTurnGetter;
-
+///////////ГОВНОКЛАСС
 public class NetServer implements OpponentTurnGetter {
 
 	private Field myField, opponentField;
