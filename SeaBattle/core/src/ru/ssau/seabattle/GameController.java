@@ -92,59 +92,59 @@ public class GameController implements Screen {
 		stage.act();
 		stage.draw();			
 		
-		batch.begin();
-		
-		Field field = game.getMyField();
-		CellState state;
-
-		xOffset = 50;
-		yOffset = 420;
-		
-		for(int j = 0; j < 10; j ++){
-			for(int i = 0; i < 10; i ++){
-				state = field.getCell(i, j).getState();
-				switch(state){
-				case SEA:
-					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
-					break;
-				case INJURED:
-					batch.draw(inj, (inj.getWidth()+4)*i + xOffset, yOffset - (inj.getHeight() + 4)*j ); 
-					break;
-				case MISS:
-					batch.draw(miss, (miss.getWidth()+4)*i + xOffset, yOffset - (miss.getHeight() + 4)*j ); 
-					break;
-				case SHIP:
-					batch.draw(ship, (ship.getWidth()+4)*i + xOffset, yOffset - (ship.getHeight() + 4)*j ); 
-					break;
-				}
-			}
-		}
-		
-		field = game.getOpponentField();
-		
-		xOffset = 400;
-		
-		for(int j = 0; j < 10; j ++){
-			for(int i = 0; i < 10; i ++){
-				state = field.getCell(i, j).getState();
-				switch(state){
-				case SEA:
-					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
-					break;
-				case INJURED:
-					batch.draw(inj, (inj.getWidth()+4)*i + xOffset, yOffset - (inj.getHeight() + 4)*j ); 
-					break;
-				case MISS:
-					batch.draw(miss, (miss.getWidth()+4)*i + xOffset, yOffset - (miss.getHeight() + 4)*j ); 
-					break;
-				case SHIP:
-					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
-					break;
-				}
-			}
-		}
-
-		batch.end();
+//		batch.begin();
+//		
+//		Field field = game.getMyField();
+//		CellState state;
+//
+//		xOffset = 50;
+//		yOffset = 420;
+//		
+//		for(int j = 0; j < 10; j ++){
+//			for(int i = 0; i < 10; i ++){
+//				state = field.getCell(i, j).getState();
+//				switch(state){
+//				case SEA:
+//					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
+//					break;
+//				case INJURED:
+//					batch.draw(inj, (inj.getWidth()+4)*i + xOffset, yOffset - (inj.getHeight() + 4)*j ); 
+//					break;
+//				case MISS:
+//					batch.draw(miss, (miss.getWidth()+4)*i + xOffset, yOffset - (miss.getHeight() + 4)*j ); 
+//					break;
+//				case SHIP:
+//					batch.draw(ship, (ship.getWidth()+4)*i + xOffset, yOffset - (ship.getHeight() + 4)*j ); 
+//					break;
+//				}
+//			}
+//		}
+//		
+//		field = game.getOpponentField();
+//		
+//		xOffset = 400;
+//		
+//		for(int j = 0; j < 10; j ++){
+//			for(int i = 0; i < 10; i ++){
+//				state = field.getCell(i, j).getState();
+//				switch(state){
+//				case SEA:
+//					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
+//					break;
+//				case INJURED:
+//					batch.draw(inj, (inj.getWidth()+4)*i + xOffset, yOffset - (inj.getHeight() + 4)*j ); 
+//					break;
+//				case MISS:
+//					batch.draw(miss, (miss.getWidth()+4)*i + xOffset, yOffset - (miss.getHeight() + 4)*j ); 
+//					break;
+//				case SHIP:
+//					batch.draw(sea, (sea.getWidth()+4)*i + xOffset, yOffset - (sea.getHeight() + 4)*j ); 
+//					break;
+//				}
+//			}
+//		}
+//
+//		batch.end();
 	}
 	
 	@Override

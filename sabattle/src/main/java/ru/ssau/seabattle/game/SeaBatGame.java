@@ -38,11 +38,13 @@ public class SeaBatGame{
 	}
 
 	public void myShoot(int x, int y) {
-		opponentField.shoot(x, y);
+		ShootState state = opponentField.shoot(x, y);
+		if(state == ShootState.MISS) turnToken = TurnToken.OPPONENT;
 	}
 
 	public ShootState opponentShoot(int x, int y) {
 		ShootState state = myField.shoot(x, y);
+		if(state == ShootState.MISS) turnToken = TurnToken.MY;
 		return state;
 	}
 
@@ -54,7 +56,7 @@ public class SeaBatGame{
 		ArrayList<Coordinate> freeCells = new ArrayList<Coordinate>();
 		for(int i =0; i < 10; i++)
 			for(int j = 0; j < 10; j++){
-				CellState state = opponentField.getCell(i, j).getState();
+				CellState state = myField.getCell(i, j).getState();
 				if(state == CellState.SEA || state == CellState.SHIP)
 					freeCells.add(new Coordinate(i, j));
 			}

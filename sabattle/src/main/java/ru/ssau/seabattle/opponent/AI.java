@@ -311,9 +311,16 @@ public class AI implements Runnable {
 	
 	public void makeNextTurn() {
 		switch(level){
-			case LOW:{ makeLowLevelTurn();}
-			case MIDDLE:{ makeMiddleLevelTurn();}
-			default:{ makeHardLevelTurn();}
+			case LOW:
+				makeLowLevelTurn();
+				break;
+			case MIDDLE:
+				makeMiddleLevelTurn();
+				break; 
+			case HARD :
+				makeHardLevelTurn();
+				break;
+			default: assert false;
 		}
 	}
 	public Coordinate getLastHit() {

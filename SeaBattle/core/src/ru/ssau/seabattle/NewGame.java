@@ -147,7 +147,6 @@ public class NewGame implements Screen {
 		butNewGame.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-//				((Game)Gdx.app.getApplicationListener()).setScreen(new FieldCreator(null,null));
 				SeaBatGame game = new SeaBatGame();
 				Field field = new Field();
 				field.generate();
@@ -157,7 +156,6 @@ public class NewGame implements Screen {
 				game.setOpponentField(field);
 				
 				game.chooseFirstShooter();
-				
 				((Game)Gdx.app.getApplicationListener()).setScreen(new GameScreen(game));
 			}
 		});
