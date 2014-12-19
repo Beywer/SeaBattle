@@ -9,7 +9,7 @@ import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
 
-public class AI{
+public class AI implements OpponentTurnGetter{
 
 	private Level level;
 	private ArrayList<Coordinate> cells; 
