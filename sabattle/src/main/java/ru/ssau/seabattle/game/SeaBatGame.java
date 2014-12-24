@@ -1,6 +1,8 @@
 package ru.ssau.seabattle.game;
 
+import java.net.InetAddress;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Random;
 
 import ru.ssau.seabattle.core.CellState;
@@ -16,7 +18,11 @@ public class SeaBatGame{
 	private boolean gameEnded;
 	private Field opponentField, myField;
 	private ArrayList<Shoot> gameHistory;
-	private TurnToken turnToken;	
+	private TurnToken turnToken;
+	
+	//Нужны клиенту.
+	private transient HashSet<String> servers;
+	private transient InetAddress addressToConnect;
 
 	public SeaBatGame(){
 		gameHistory = new ArrayList<Shoot>();
@@ -99,4 +105,21 @@ public class SeaBatGame{
 	public ArrayList<Shoot> getGameHistory() {
 		return gameHistory;
 	}
+
+	public HashSet<String> getServers() {
+		return servers;
+	}
+
+	public void setServers(HashSet<String> servers) {
+		this.servers = servers;
+	}
+
+	public InetAddress getAddressToConnect() {
+		return addressToConnect;
+	}
+
+	public void setAddressToConnect(InetAddress addressToConnect) {
+		this.addressToConnect = addressToConnect;
+	}
+	
 }

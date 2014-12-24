@@ -7,14 +7,13 @@ import java.io.ObjectInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import ru.ssau.seabattle.core.Coordinate;
 import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.ShootState;
 import ru.ssau.seabattle.game.SeaBatGame;
 import ru.ssau.seabattle.game.TurnToken;
-import ru.ssau.seabattle.opponent.OpponentTurnGetter;
+import ru.ssau.seabattle.opponent.Opponent;
 
-public class SeaBatServer implements Runnable  {
+public class SeaBatServer implements Runnable, Opponent  {
 	
 	private ServerSocket server;
 	private Socket connection;
@@ -51,6 +50,9 @@ public class SeaBatServer implements Runnable  {
 			connection = server.accept();
 			input = new DataInputStream(connection.getInputStream());
 			output = new DataOutputStream(connection.getOutputStream());
+			//Отправляем подтверждение
+			output.write(SeaBatNetCodes.SERVER_CONNECTED);
+			output.flush();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
