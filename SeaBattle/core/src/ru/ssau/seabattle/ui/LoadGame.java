@@ -1,5 +1,14 @@
 package ru.ssau.seabattle.ui;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+import ru.ssau.seabattle.game.SeaBatGame;
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
@@ -171,6 +180,23 @@ public class LoadGame implements Screen {
 	@Override
 	public void dispose() {
 		stage.dispose();
+	}
+
+	public void saveGame(SeaBatGame s,String save) throws IOException//Черновое сохранение
+	{
+		FileOutputStream fos = new FileOutputStream(save);
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		SeaBatGame ts = s;
+		oos.writeObject(ts);
+		oos.flush();
+		oos.close();
+	}
+	public SeaBatGame loadGame(String load)throws IOException, ClassNotFoundException//Черновая загрузка
+	{
+		FileInputStream fis = new FileInputStream(load);
+		ObjectInputStream oin = new ObjectInputStream(fis);
+		SeaBatGame ts = (SeaBatGame) oin.readObject();
+		return ts;
 	}
 
 }
