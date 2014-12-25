@@ -169,6 +169,7 @@ public class FieldCreator implements Screen {
 			public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
 				if(movedActor != null){
 					Ship ship = ((Ship)movedActor);
+					//Это добавил Мирош после комита
 //					if(ship.isDirection())
 						//TODO
 //						setShip(ship ,ship.getX() + ship.getWidth()/40, ship.getY() + ship.getHeight()/2);
