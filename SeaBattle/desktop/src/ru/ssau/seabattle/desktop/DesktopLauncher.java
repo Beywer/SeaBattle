@@ -1,10 +1,7 @@
 package ru.ssau.seabattle.desktop;
 
 import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.UnknownHostException;
 
-import ru.ssau.seabattle.opponent.net.server.ServerFinder;
 import ru.ssau.seabattle.ui.SeaBattle;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;

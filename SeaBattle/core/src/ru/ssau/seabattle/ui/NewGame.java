@@ -1,10 +1,7 @@
 package ru.ssau.seabattle.ui;
 
-import ru.ssau.seabattle.core.Field;
-import ru.ssau.seabattle.game.OLDSingleGame;
-import ru.ssau.seabattle.game.SeaBatGame;
-import ru.ssau.seabattle.opponent.OLDAI;
 import ru.ssau.seabattle.opponent.Level;
+import ru.ssau.seabattle.opponent.net.server.SeaBatClient;
 import aurelienribon.tweenengine.TweenManager;
 
 import com.badlogic.gdx.Game;
@@ -16,6 +13,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
 import com.badlogic.gdx.scenes.scene2d.ui.List;
@@ -41,11 +39,16 @@ public class NewGame implements Screen {
 	private BitmapFont butFont;
 	private TextButton butNewGame, butBack;
 	
-	private enum Net{SERVER, CLIENT};
+	private Image levelBack, modeBack , netBack;
+
+	private boolean singleGame;
+	private boolean serverGame;
 	private Level level;
-	private GameType type;
-	private Net net;
-	private ru.ssau.seabattle.game.Game game;
+	private SeaBatClient seaBatClient;
+	
+	public NewGame(){
+		singleGame = true;
+	}
 	
 	@Override
 	public void render(float delta) {
@@ -69,11 +72,13 @@ public class NewGame implements Screen {
 		//Stage and skin
 		stage = new Stage();
 		skin = new Skin();
-		skin.add("hScroll", new Texture("pane/hScroll.png"));
-		skin.add("vScroll", new Texture("pane/vScroll.png"));
-		skin.add("hScrollKnob", new Texture("pane/hScrollKnob.png"));
-		skin.add("vScrollKnob", new Texture("pane/vScrollKnob.png"));
-		skin.add("paneBack", new Texture("pane/paneBack.png"));
+		
+		skin.add("empty", new Texture("pane/empty.png"));
+		skin.add("selection", new Texture("pane/select.png"));
+		skin.add("hScrollKnob", new Texture("pane/horKnob.png"));
+		skin.add("vScrollKnob", new Texture("pane/verKnob.png"));
+		skin.add("paneBack", new Texture("pane/back.png"));
+		
 		skin.add("back", new Texture("back.png"));
 		skin.add("but_up", new Texture("button/but_up.png"));
 		skin.add("but_d", new Texture("button/but_d.png"));
@@ -82,6 +87,9 @@ public class NewGame implements Screen {
 		font = new BitmapFont(Gdx.files.internal("font/font.fnt"), false);
 		butFont = new BitmapFont(Gdx.files.internal("font/butFont.fnt"), false);//Здесь false-y ось нарпавлена вверх
 		
+		levelBack = new Image(skin.getPatch("paneBack"));
+		modeBack = new Image(skin.getPatch("paneBack"));
+		netBack = new Image(skin.getPatch("paneBack"));
 		
 		//Background
 		Table background = new Table(skin);
@@ -93,7 +101,7 @@ public class NewGame implements Screen {
 		LabelStyle labelStyle = new LabelStyle(font, Color.WHITE);
 		label = new Label("Новая игра", labelStyle);
 		//modeHeader
-		LabelStyle labelStyleSmallFont = new LabelStyle(butFont, Color.WHITE);
+		LabelStyle labelStyleSmallFont = new LabelStyle(butFont, Color.YELLOW);
 		Label modeHeader = new Label("Режим игры", labelStyleSmallFont);
 		modeHeader.setColor(Color.WHITE);
 		//levelHeader
@@ -103,33 +111,79 @@ public class NewGame implements Screen {
 
 		//PANES
 		ScrollPaneStyle scrollPaneStyle = new ScrollPaneStyle(
-				skin.getDrawable("paneBack"),
-				skin.getDrawable("hScroll"),
+				skin.getDrawable("empty"),
+				skin.getDrawable("empty"),
 				skin.getDrawable("hScrollKnob"),
-				skin.getDrawable("vScroll"),
+				skin.getDrawable("empty"),
 				skin.getDrawable("vScrollKnob"));
 		//modePane
-		ListStyle listStyle = new ListStyle(butFont, Color.RED, Color.BLACK, skin.getDrawable("hScroll"));
-		List<String> modeList = new List<String>(listStyle);
+		ListStyle listStyle = new ListStyle(butFont, Color.WHITE, Color.BLACK, skin.getDrawable("empty"));
+		final List<String> modeList = new List<String>(listStyle);
 		modeList.setItems(new String[]{" Одиночная ","  Сетевая"});
 		modeList.setSelectedIndex(-1);
 		modePane = new ScrollPane(modeList, scrollPaneStyle);
 		//LevelPane
-		List<String> levellist = new List<String>(listStyle);
+		final List<String> levellist = new List<String>(listStyle);
 		levellist.setItems(new String[]{"     Легкий","    Средний","   Сложный"});
 		levelPane = new ScrollPane(levellist, scrollPaneStyle);
 		//netPane
-		List<String> netList = new List<String>(listStyle);
+		final List<String> netList = new List<String>(listStyle);
 		netList.setItems(new String[]{"Созадть","Подключиться"});
 		netPane = new ScrollPane(netList, scrollPaneStyle);
 		
 		
 		//PANE CLICK
-		level = Level.MIDDLE;
-		type = GameType.SINGLE;
-		net = Net.SERVER;
-		
-		
+		//modePane
+		modePane.addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				String mode = netList.getSelected();
+				switch(mode){
+				case " Одиночная " :
+					singleGame = true;
+					break;
+				case "  Сетевая" :
+					singleGame = false;
+					break;
+				default : assert false;
+			}
+			}
+		});
+		//levelPane
+		levelPane.addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				String lev = levellist.getSelected();
+				switch(lev){
+				case "     Легкий" :
+					level = Level.LOW;
+					break;
+				case "    Средний" :
+					level = Level.MIDDLE;
+					break;
+				case "   Сложный" :
+					level = Level.HARD;
+					break;
+				default : assert false;
+			}
+			}
+		});
+		//netPane
+		netPane.addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				String mode = netList.getSelected();
+				switch(mode){
+					case "Созадть" :
+						serverGame = true;
+						break;
+					case "Подключиться" :
+						serverGame = false;
+						break;
+					default : assert false;
+				}
+			}
+		});
 		
 		//BUTTONS
 		TextButtonStyle textButtonStyle = new TextButtonStyle();
@@ -147,16 +201,9 @@ public class NewGame implements Screen {
 		butNewGame.addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {
-				SeaBatGame game = new SeaBatGame();
-				Field field = new Field();
-				field.generate();
-				game.setMyField(field);
-				field = new Field();
-				field.generate();
-				game.setOpponentField(field);
 				
-				game.chooseFirstShooter();
-				((Game)Gdx.app.getApplicationListener()).setScreen(new GameScreen(game));
+				((Game)Gdx.app.getApplicationListener()).setScreen(
+						new FieldCreator(level, singleGame, serverGame));
 			}
 		});
 		
@@ -194,6 +241,9 @@ public class NewGame implements Screen {
 		
 		stage.addActor(background);
 		
+		stage.addActor(levelBack);
+		levelBack.setBounds(15, 160, 260, 340);
+		
 		stage.addActor(levelTable);
 		levelTable.setPosition(300, 225);
 		
@@ -206,11 +256,12 @@ public class NewGame implements Screen {
 		stage.addActor(netTable);
 		netTable.setPosition(650, 225); 
 		
-		stage.addActor(butNewGame);
-		butNewGame.setPosition(20, 20);
-		
 		stage.addActor(butBack);
-		butBack.setPosition(600, 20);
+		butBack.setPosition(20, 20);
+		
+		stage.addActor(butNewGame);
+		butNewGame.setPosition(600, 20);
+	
 		
 		tweenManager = new TweenManager();
 		
@@ -238,25 +289,4 @@ public class NewGame implements Screen {
 		butFont.dispose();
 	}
 	
-	private void createGame(){
-		switch(type)
-		{
-		case SINGLE:
-			createSingleGame();
-			break;
-		case NET:
-			break;
-		default : assert false;
-		}
-	}
-	
-	private void createSingleGame(){
-		Field myField, opponentField;
-		myField = new Field();
-		myField.generate();
-		opponentField = new Field();
-		opponentField.generate();
-		OLDAI opponent = new OLDAI(level, myField);
-		game = new OLDSingleGame(opponent, myField, opponentField);
-	}
 }

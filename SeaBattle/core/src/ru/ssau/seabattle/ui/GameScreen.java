@@ -36,14 +36,13 @@ public class GameScreen implements Screen {
 	 * @param game Игра, состояние которой будет отображаться.
 	 */
 	public GameScreen(SeaBatGame game){
-		this.game = game;
 		
-		AI ai = new AI(game, Level.LOW);
-		Thread thr = new Thread(ai);
-		thr.setDaemon(true);
-		thr.start();
 	}	
 	
+	public GameScreen(SeaBatGame game2, boolean singleGame, boolean serverGame) {
+		this.game = game;
+	}
+
 	@Override
 	public void show() {
 		stage = new Stage();

@@ -21,7 +21,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
-public class LoadGame implements Screen {
+public class ServerChooserScreen implements Screen {
 
 	private Stage stage;
 	private ScrollPane pane;
@@ -54,15 +54,15 @@ public class LoadGame implements Screen {
 		
 		//Textures
 		Skin skin = new Skin();
-		Texture texture = new Texture("pane/select.png");
+		Texture texture = new Texture("pane/hScroll.png");
 		skin.add("hScroll", texture);
-		texture = new Texture("pane/empty.png");
+		texture = new Texture("pane/vScroll.png");
 		skin.add("vScroll", texture);
 		texture = new Texture("pane/hScrollKnob.png");
 		skin.add("hScrollKnob", texture);
-		texture = new Texture("pane/verKnob.png");
+		texture = new Texture("pane/vScrollKnob.png");
 		skin.add("vScrollKnob", texture);
-		texture = new Texture("pane/back.png");
+		texture = new Texture("pane/paneBack.png");
 		skin.add("paneBack", texture);
 		skin.add("back", new Texture("back.png"));
 		skin.add("but_d", new Texture("button/but_d.png"));
@@ -80,10 +80,10 @@ public class LoadGame implements Screen {
 				, skin.getDrawable("vScroll")
 				, skin.getDrawable("vScrollKnob"));
 		
-		ListStyle listStyle = new ListStyle(butFont , Color.WHITE, Color.BLACK, skin.getDrawable("vScroll"));
+		ListStyle listStyle = new ListStyle(butFont , Color.RED, Color.WHITE, skin.getDrawable("vScroll"));
 		
 		list = new List<String>(listStyle);
-		list.setItems("          sdf","		sdf2","		sdf3","		sdf4","		sdf5","		sdf6","sdf7"
+		list.setItems("sdf","sdf2","sdf3","sdf4","sdf5","sdf6","sdf7"
 				,"sdf8","sdf9","sdf10","sdf11","sdf12"
 				,"sdf13","sdf14","sdf15"
 				,"sdf16","sdf17","sdf18"
