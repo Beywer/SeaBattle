@@ -118,7 +118,7 @@ public class Field implements Serializable {
 				if(x + decksNumber < 10){
 					for(int i=x; i< x+decksNumber;i++)
 						cells[i][y].setState(CellState.SEA);	//Очистка клеток
-					System.out.println(ships.remove(cells[x][y].getShip()));		//Удаление корабля из списка
+					ships.remove(cells[x][y].getShip());		//Удаление корабля из списка
 				}
 			}
 			else{

@@ -11,6 +11,7 @@ public class Ship extends  Actor {
 	private Texture tex;
 	private boolean direction;
 	private int deckNum;
+	private int xCoord,yCoord;
 	
 	public Ship(int deckNum, boolean direction){
 		this.direction = direction;
@@ -81,6 +82,22 @@ public class Ship extends  Actor {
 
 	public int getDeckNuber() {
 		return deckNum;
+	}
+
+	public int getxCoord() {
+		return xCoord;
+	}
+
+	public void setxCoord(int xCoord) {
+		this.xCoord = xCoord;
+	}
+
+	public int getyCoord() {
+		return yCoord;
+	}
+
+	public void setyCoord(int yCoord) {
+		this.yCoord = yCoord;
 	}
 	
 	

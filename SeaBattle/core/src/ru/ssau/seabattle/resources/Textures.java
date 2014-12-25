@@ -18,4 +18,10 @@ public class Textures {
 	public static final Texture field = new Texture("field/field.png");
 	public static final Texture miss = new Texture("field/miss.png");
 	
+	
+	
+	
+
+	public static final Texture shi = new Texture("pane/hScrollKnob.png");
+	public static final Texture sea = new Texture("pane/paneBack.png");
 }
