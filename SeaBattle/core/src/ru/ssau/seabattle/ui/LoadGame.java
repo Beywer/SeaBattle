@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
 
 import ru.ssau.seabattle.game.SeaBatGame;
 
@@ -39,6 +40,7 @@ public class LoadGame implements Screen {
 	private Label header;
 	private TextButton butContinue, butBack;
 	private BitmapFont butFont, headerFont;
+	private static ArrayList<File> listWithFileNames = new ArrayList<File>();
 	
 	int i = 30;
 	float time = 0;;
@@ -182,21 +184,40 @@ public class LoadGame implements Screen {
 		stage.dispose();
 	}
 
-	public void saveGame(SeaBatGame s,String save) throws IOException//Черновое сохранение
+	public void saveGame(SeaBatGame s, String name) throws IOException//Черновое сохранение
 	{
-		FileOutputStream fos = new FileOutputStream(save);
+		FileOutputStream fos = new FileOutputStream("C:\\1\\"+name+".sav");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		SeaBatGame ts = s;
+		SeaBatGame ts =s;
 		oos.writeObject(ts);
 		oos.flush();
 		oos.close();
 	}
-	public SeaBatGame loadGame(String load)throws IOException, ClassNotFoundException//Черновая загрузка
+	public SeaBatGame loadGame(String name)throws IOException, ClassNotFoundException//Черновая загрузка
 	{
-		FileInputStream fis = new FileInputStream(load);
+		FileInputStream fis = new FileInputStream("C:\\1\\"+name+".sav");
 		ObjectInputStream oin = new ObjectInputStream(fis);
 		SeaBatGame ts = (SeaBatGame) oin.readObject();
 		return ts;
+	}
+	public void getListFiles(String str) {
+        File f = new File(str);
+        for (File s : f.listFiles()) {
+            if (s.isFile()) {
+                listWithFileNames.add(s);
+            } else if (s.isDirectory()) {
+                getListFiles(s.getAbsolutePath());      
+            }
+        }
+        
+    }
+	public void printListFile(String s)//печатает список всех файлов из папки
+	{
+		getListFiles(s);
+        
+        for (File fil : listWithFileNames) {
+            System.out.println(fil.getName());
+        }
 	}
 
 }

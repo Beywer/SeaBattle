@@ -4,6 +4,13 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 import ru.ssau.seabattle.core.CellState;
 import ru.ssau.seabattle.core.Coordinate;
@@ -11,7 +18,7 @@ import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.Shoot;
 import ru.ssau.seabattle.core.ShootState;
 
-public class SeaBatGame{
+public class SeaBatGame implements Serializable {
 	
 	private transient boolean opponentFinded, opponentReady;
 
