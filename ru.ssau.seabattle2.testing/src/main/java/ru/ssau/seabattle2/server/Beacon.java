@@ -3,6 +3,7 @@ package ru.ssau.seabattle2.server;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.net.InetAddress;
 import java.net.SocketException;
 
 /**
@@ -33,7 +34,18 @@ public class Beacon implements Runnable {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			System.out.println(new String(buffer));
+			
+			String mess = new String(buffer);
+			System.out.println(mess);
+			System.out.println(fromClient.getAddress());
+			
+			buffer = "OK".getBytes();
+			DatagramPacket toClient = new DatagramPacket(buffer, buffer.length, fromClient.getAddress(), 9095);
+			try {
+				serverSocket.send(toClient);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
