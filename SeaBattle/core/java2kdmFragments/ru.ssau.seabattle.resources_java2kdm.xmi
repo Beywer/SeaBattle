@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="ASCII"?>
+<javaapplication:Java2File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <file href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.0"/>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="40" endLine="3" endPosition="81">
+    <node href="../SeaBattle-core_java.xmi#//@compilationUnits.28/@imports.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="85" endLine="29" endPosition="1296">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="111" endLine="6" endPosition="116">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="119" endLine="7" endPosition="184">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="139" endLine="7" endPosition="146">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="139" endLine="7" endPosition="146">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="147" endLine="7" endPosition="183">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="160" endLine="7" endPosition="183">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="164" endLine="7" endPosition="171">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="164" endLine="7" endPosition="171">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="172" endLine="7" endPosition="182">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="8" startPosition="187" endLine="8" endPosition="196">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="199" endLine="9" endPosition="269">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="219" endLine="9" endPosition="226">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="219" endLine="9" endPosition="226">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="227" endLine="9" endPosition="268">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="241" endLine="9" endPosition="268">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="245" endLine="9" endPosition="252">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="245" endLine="9" endPosition="252">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="253" endLine="9" endPosition="267">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="272" endLine="10" endPosition="342">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="292" endLine="10" endPosition="299">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="292" endLine="10" endPosition="299">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="300" endLine="10" endPosition="341">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="314" endLine="10" endPosition="341">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="318" endLine="10" endPosition="325">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="318" endLine="10" endPosition="325">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="326" endLine="10" endPosition="340">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.2/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="345" endLine="11" endPosition="417">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="365" endLine="11" endPosition="372">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="365" endLine="11" endPosition="372">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="373" endLine="11" endPosition="416">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="389" endLine="11" endPosition="416">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="393" endLine="11" endPosition="400">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="393" endLine="11" endPosition="400">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="401" endLine="11" endPosition="415">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.3/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="420" endLine="12" endPosition="491">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="440" endLine="12" endPosition="447">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="440" endLine="12" endPosition="447">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="448" endLine="12" endPosition="490">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="463" endLine="12" endPosition="490">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="467" endLine="12" endPosition="474">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="467" endLine="12" endPosition="474">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="475" endLine="12" endPosition="489">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.4/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="494" endLine="13" endPosition="564">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="514" endLine="13" endPosition="521">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="514" endLine="13" endPosition="521">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="522" endLine="13" endPosition="563">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="536" endLine="13" endPosition="563">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="540" endLine="13" endPosition="547">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="540" endLine="13" endPosition="547">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="548" endLine="13" endPosition="562">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.5/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="567" endLine="14" endPosition="637">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="587" endLine="14" endPosition="594">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="587" endLine="14" endPosition="594">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="595" endLine="14" endPosition="636">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="609" endLine="14" endPosition="636">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="613" endLine="14" endPosition="620">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="613" endLine="14" endPosition="620">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="621" endLine="14" endPosition="635">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.6/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="640" endLine="15" endPosition="712">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="660" endLine="15" endPosition="667">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="660" endLine="15" endPosition="667">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="668" endLine="15" endPosition="711">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="684" endLine="15" endPosition="711">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="688" endLine="15" endPosition="695">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="688" endLine="15" endPosition="695">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="696" endLine="15" endPosition="710">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.7/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="715" endLine="16" endPosition="786">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="735" endLine="16" endPosition="742">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="735" endLine="16" endPosition="742">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="743" endLine="16" endPosition="785">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="758" endLine="16" endPosition="785">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="762" endLine="16" endPosition="769">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="762" endLine="16" endPosition="769">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="770" endLine="16" endPosition="784">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.8/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="791" endLine="18" endPosition="858">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="811" endLine="18" endPosition="818">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="811" endLine="18" endPosition="818">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="819" endLine="18" endPosition="857">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="827" endLine="18" endPosition="857">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="831" endLine="18" endPosition="838">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="831" endLine="18" endPosition="838">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="839" endLine="18" endPosition="856">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.9/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="861" endLine="19" endPosition="926">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="881" endLine="19" endPosition="888">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="881" endLine="19" endPosition="888">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="889" endLine="19" endPosition="925">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="896" endLine="19" endPosition="925">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="900" endLine="19" endPosition="907">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="900" endLine="19" endPosition="907">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="908" endLine="19" endPosition="924">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.10/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="929" endLine="20" endPosition="994">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="949" endLine="20" endPosition="956">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="949" endLine="20" endPosition="956">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="957" endLine="20" endPosition="993">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="963" endLine="20" endPosition="993">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="967" endLine="20" endPosition="974">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="967" endLine="20" endPosition="974">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="975" endLine="20" endPosition="992">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.11/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1000" endLine="22" endPosition="1070">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1020" endLine="22" endPosition="1027">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1020" endLine="22" endPosition="1027">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1028" endLine="22" endPosition="1069">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1037" endLine="22" endPosition="1069">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1041" endLine="22" endPosition="1048">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1041" endLine="22" endPosition="1048">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="1049" endLine="22" endPosition="1068">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.12/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1074" endLine="23" endPosition="1142">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1094" endLine="23" endPosition="1101">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1094" endLine="23" endPosition="1101">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1102" endLine="23" endPosition="1141">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1110" endLine="23" endPosition="1141">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1114" endLine="23" endPosition="1121">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1114" endLine="23" endPosition="1121">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="1122" endLine="23" endPosition="1140">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.13/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1153" endLine="27" endPosition="1223">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1173" endLine="27" endPosition="1180">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1173" endLine="27" endPosition="1180">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1181" endLine="27" endPosition="1222">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1187" endLine="27" endPosition="1222">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1191" endLine="27" endPosition="1198">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1191" endLine="27" endPosition="1198">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1199" endLine="27" endPosition="1221">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.14/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1226" endLine="28" endPosition="1293">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1246" endLine="28" endPosition="1253">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1246" endLine="28" endPosition="1253">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1254" endLine="28" endPosition="1292">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1260" endLine="28" endPosition="1292">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@fragments.0/@initializer"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1264" endLine="28" endPosition="1271">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1264" endLine="28" endPosition="1271">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@fragments.0/@initializer/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1272" endLine="28" endPosition="1291">
+    <node href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedElements.0/@bodyDeclarations.15/@fragments.0/@initializer/@arguments.0"/>
+  </children>
+  <unit href="../SeaBattle-core_java.xmi#//@compilationUnits.28"/>
+  <parent href="Package2Directory_java2kdm.xmi#/5"/>
+</javaapplication:Java2File>

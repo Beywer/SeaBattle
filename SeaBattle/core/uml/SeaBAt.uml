@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" name="root model">
+  <packagedElement xsi:type="uml:Model" name="SeaBattle-core">
+    <packagedElement xsi:type="uml:Package" name="core" visibility="public">
+      <packagedElement xsi:type="uml:Artifact" name=".classpath" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.classpath"/>
+      <packagedElement xsi:type="uml:Artifact" name=".gitignore" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.gitignore"/>
+      <packagedElement xsi:type="uml:Artifact" name=".project" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.project"/>
+      <packagedElement xsi:type="uml:Package" name=".settings" visibility="public">
+        <packagedElement xsi:type="uml:Package" name="gradle" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="org.springsource.ide.eclipse.gradle.core.prefs" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\gradle\org.springsource.ide.eclipse.gradle.core.prefs"/>
+          <packagedElement xsi:type="uml:Artifact" name="org.springsource.ide.eclipse.gradle.refresh.prefs" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\gradle\org.springsource.ide.eclipse.gradle.refresh.prefs"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Artifact" name="org.eclipse.jdt.core.prefs" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\org.eclipse.jdt.core.prefs"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" name="assets" visibility="public">
+        <packagedElement xsi:type="uml:Artifact" name="back.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\back.png"/>
+        <packagedElement xsi:type="uml:Artifact" name="badlogic.jpg" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\badlogic.jpg"/>
+        <packagedElement xsi:type="uml:Package" name="button" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="but_d.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\but_d.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="but_up.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\but_up.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="Thumbs.db" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\Thumbs.db"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="field" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="11_07.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\11_07.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="field.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\field.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="miss.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\miss.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="Thumbs.db" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\Thumbs.db"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="font" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="butFont.fnt" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont.fnt"/>
+          <packagedElement xsi:type="uml:Artifact" name="butFont_0.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_0.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="butFont_1.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_1.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="butFont_2.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_2.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="butFont_3.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_3.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="font.fnt" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font.fnt"/>
+          <packagedElement xsi:type="uml:Artifact" name="font_0.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_0.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="font_1.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_1.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="font_2.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_2.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="font_3.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_3.png"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="pane" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="back.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\back.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="empty.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\empty.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="horKnob.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\horKnob.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="hScroll.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\hScroll.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="hScrollKnob.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\hScrollKnob.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="paneBack.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\paneBack.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="select.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\select.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="Thumbs.db" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\Thumbs.db"/>
+          <packagedElement xsi:type="uml:Artifact" name="verKnob.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\verKnob.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="vScroll.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\vScroll.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="vScrollKnob.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\vScrollKnob.png"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="ships" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="h1.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h1.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="h2.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h2.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="h3.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h3.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="h4.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h4.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="Thumbs.db" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\Thumbs.db"/>
+          <packagedElement xsi:type="uml:Artifact" name="v1.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v1.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="v2.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v2.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="v3.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v3.png"/>
+          <packagedElement xsi:type="uml:Artifact" name="v4.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v4.png"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Artifact" name="splashRing.png" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\splashRing.png"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" name="bin" visibility="public">
+        <packagedElement xsi:type="uml:Package" name="ru" visibility="public">
+          <packagedElement xsi:type="uml:Package" name="ssau" visibility="public">
+            <packagedElement xsi:type="uml:Package" name="seabattle" visibility="public">
+              <packagedElement xsi:type="uml:Package" name="core" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Cell.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Cell.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="CellState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\CellState.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Coordinate.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Coordinate.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Field.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Field.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Ship.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Ship.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShipState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\ShipState.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Shoot.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Shoot.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShootState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\ShootState.class"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="game" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Game.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\Game.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDController.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDController.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDController2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDController2.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDNetGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDNetGame.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDSingleGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDSingleGame.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="SeaBatGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\SeaBatGame.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="TurnToken.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\TurnToken.class"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="opponent" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="AI.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\AI.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Level.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Level.class"/>
+                <packagedElement xsi:type="uml:Package" name="net" visibility="public">
+                  <packagedElement xsi:type="uml:Package" name="server" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="Reciver.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\Reciver.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatClient.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatClient.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatNetCodes.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatServer.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatServer.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ServerFinder.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\ServerFinder.class"/>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xsi:type="uml:Artifact" name="Net.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Net.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDAI.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\OLDAI.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Opponent.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Opponent.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="OpponentTurnGetter.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\OpponentTurnGetter.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ServerFinder.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\ServerFinder.class"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="resources" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Textures.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\resources\Textures.class"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Artifact" name="SeaBattle.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\SeaBattle.class"/>
+              <packagedElement xsi:type="uml:Package" name="ui" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="ActorAccessor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ActorAccessor.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Cell.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Cell.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="FieldCreator$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="FieldCreator$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$2.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="FieldCreator$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$3.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="FieldCreator.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameController$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameController$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameController.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameController.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameScreen$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen$2.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameType.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameType.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="LoadGame$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\LoadGame$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="LoadGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\LoadGame.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$2.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$3.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu$4.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$4.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu$5.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$5.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$2.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$3.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame$4.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$4.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame$5.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$5.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="SeaBattle.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\SeaBattle.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ServerChooserScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ServerChooserScreen$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ServerChooserScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ServerChooserScreen.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShipActor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ShipActor.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Splash$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Splash$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="Splash.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Splash.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="SpriteAccessor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\SpriteAccessor.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="TeamScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\TeamScreen$1.class"/>
+                <packagedElement xsi:type="uml:Artifact" name="TeamScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\TeamScreen.class"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" name="build" visibility="public">
+        <packagedElement xsi:type="uml:Package" name="classes" visibility="public">
+          <packagedElement xsi:type="uml:Package" name="main" visibility="public">
+            <packagedElement xsi:type="uml:Package" name="ru" visibility="public">
+              <packagedElement xsi:type="uml:Package" name="ssau" visibility="public">
+                <packagedElement xsi:type="uml:Package" name="seabattle" visibility="public">
+                  <packagedElement xsi:type="uml:Package" name="core" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="Cell$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Cell$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Cell.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Cell.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="CellState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\CellState.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Coordinate.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Coordinate.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Field$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Field$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Field.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Field.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Ship.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Ship.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ShipState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\ShipState.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Shoot.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Shoot.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ShootState.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\ShootState.class"/>
+                  </packagedElement>
+                  <packagedElement xsi:type="uml:Package" name="game" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="Game.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\Game.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDController.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDController.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDController2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDController2.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDNetGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDNetGame.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDSingleGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDSingleGame.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\SeaBatGame.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="TurnToken.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\TurnToken.class"/>
+                  </packagedElement>
+                  <packagedElement xsi:type="uml:Package" name="opponent" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="AI$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\AI$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="AI.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\AI.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Level.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Level.class"/>
+                    <packagedElement xsi:type="uml:Package" name="net" visibility="public">
+                      <packagedElement xsi:type="uml:Package" name="server" visibility="public">
+                        <packagedElement xsi:type="uml:Artifact" name="Reciver.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\Reciver.class"/>
+                        <packagedElement xsi:type="uml:Artifact" name="SeaBatClient.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatClient.class"/>
+                        <packagedElement xsi:type="uml:Artifact" name="SeaBatNetCodes.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.class"/>
+                        <packagedElement xsi:type="uml:Artifact" name="SeaBatServer.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatServer.class"/>
+                        <packagedElement xsi:type="uml:Artifact" name="ServerFinder.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\ServerFinder.class"/>
+                      </packagedElement>
+                    </packagedElement>
+                    <packagedElement xsi:type="uml:Artifact" name="Net.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Net.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDAI$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OLDAI$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OLDAI.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OLDAI.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Opponent.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Opponent.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="OpponentTurnGetter.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OpponentTurnGetter.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ServerFinder.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\ServerFinder.class"/>
+                  </packagedElement>
+                  <packagedElement xsi:type="uml:Package" name="resources" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="Textures.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\resources\Textures.class"/>
+                  </packagedElement>
+                  <packagedElement xsi:type="uml:Artifact" name="SeaBattle.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\SeaBattle.class"/>
+                  <packagedElement xsi:type="uml:Package" name="ui" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="ActorAccessor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ActorAccessor.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Cell.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Cell.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="FieldCreator$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="FieldCreator$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$2.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="FieldCreator$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$3.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="FieldCreator.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameController$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameController$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameController.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameController.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameScreen$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen$2.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="GameType.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameType.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="LoadGame$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\LoadGame$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="LoadGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\LoadGame.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$2.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$3.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu$4.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$4.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu$5.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$5.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="MainMenu.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame$2.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$2.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame$3.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$3.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame$4.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$4.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame$5.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$5.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="NewGame.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBattle.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\SeaBattle.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ServerChooserScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ServerChooserScreen$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ServerChooserScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ServerChooserScreen.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ShipActor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ShipActor.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Splash$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Splash$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="Splash.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Splash.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SpriteAccessor.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\SpriteAccessor.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="TeamScreen$1.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\TeamScreen$1.class"/>
+                    <packagedElement xsi:type="uml:Artifact" name="TeamScreen.class" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\TeamScreen.class"/>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="dependency-cache" visibility="public"/>
+        <packagedElement xsi:type="uml:Package" name="libs" visibility="public">
+          <packagedElement xsi:type="uml:Artifact" name="core-1.0.jar" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\libs\core-1.0.jar"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Package" name="tmp" visibility="public">
+          <packagedElement xsi:type="uml:Package" name="compileJava" visibility="public"/>
+          <packagedElement xsi:type="uml:Package" name="jar" visibility="public">
+            <packagedElement xsi:type="uml:Artifact" name="MANIFEST.MF" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\tmp\jar\MANIFEST.MF"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Artifact" name="build.gradle" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build.gradle"/>
+      <packagedElement xsi:type="uml:Artifact" name="SeaBattle-core_java.xmi" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\SeaBattle-core_java.xmi"/>
+      <packagedElement xsi:type="uml:Package" name="src" visibility="public">
+        <packagedElement xsi:type="uml:Package" name="ru" visibility="public">
+          <packagedElement xsi:type="uml:Package" name="ssau" visibility="public">
+            <packagedElement xsi:type="uml:Package" name="seabattle" visibility="public">
+              <packagedElement xsi:type="uml:Package" name="core" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Cell.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Cell.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="CellState.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\CellState.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Coordinate.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Coordinate.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Field.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Field.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Ship.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Ship.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShipState.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\ShipState.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Shoot.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Shoot.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShootState.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\ShootState.java"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="game" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Game.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\Game.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDController.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDController.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDController2.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDController2.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDNetGame.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDNetGame.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDSingleGame.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDSingleGame.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="SeaBatGame.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\SeaBatGame.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="TurnToken.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\TurnToken.java"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="opponent" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="AI.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\AI.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Level.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Level.java"/>
+                <packagedElement xsi:type="uml:Package" name="net" visibility="public">
+                  <packagedElement xsi:type="uml:Package" name="server" visibility="public">
+                    <packagedElement xsi:type="uml:Artifact" name="Reciver.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\Reciver.java"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatClient.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatClient.java"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatNetCodes.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.java"/>
+                    <packagedElement xsi:type="uml:Artifact" name="SeaBatServer.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatServer.java"/>
+                    <packagedElement xsi:type="uml:Artifact" name="ServerFinder.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\ServerFinder.java"/>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xsi:type="uml:Artifact" name="Net.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Net.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OLDAI.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\OLDAI.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Opponent.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Opponent.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="OpponentTurnGetter.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\OpponentTurnGetter.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="ServerFinder.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\ServerFinder.java"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Package" name="resources" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="Textures.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\resources\Textures.java"/>
+              </packagedElement>
+              <packagedElement xsi:type="uml:Artifact" name="SeaBattle.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\SeaBattle.java"/>
+              <packagedElement xsi:type="uml:Package" name="ui" visibility="public">
+                <packagedElement xsi:type="uml:Artifact" name="ActorAccessor.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ActorAccessor.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Cell.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\Cell.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="FieldCreator.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\FieldCreator.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameController.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameController.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameScreen.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameScreen.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="GameType.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameType.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="LoadGame.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\LoadGame.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="MainMenu.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\MainMenu.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="NewGame.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\NewGame.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="SeaBattle.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\SeaBattle.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="ServerChooserScreen.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ServerChooserScreen.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="ShipActor.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ShipActor.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="Splash.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\Splash.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="SpriteAccessor.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\SpriteAccessor.java"/>
+                <packagedElement xsi:type="uml:Artifact" name="TeamScreen.java" visibility="public" fileName="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\TeamScreen.java"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" name="uml" visibility="public"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

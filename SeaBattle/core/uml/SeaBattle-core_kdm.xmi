@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <model xsi:type="source:InventoryModel" name="SeaBattle-core">
+    <inventoryElement xsi:type="source:Project" name="core">
+      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.classpath"/>
+      <inventoryElement xsi:type="source:SourceFile" name=".gitignore" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.gitignore"/>
+      <inventoryElement xsi:type="source:Configuration" name=".project" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.project"/>
+      <inventoryElement xsi:type="source:Directory" name=".settings" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings">
+        <inventoryElement xsi:type="source:Directory" name="gradle" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\gradle">
+          <inventoryElement xsi:type="source:Configuration" name="org.springsource.ide.eclipse.gradle.core.prefs" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\gradle\org.springsource.ide.eclipse.gradle.core.prefs"/>
+          <inventoryElement xsi:type="source:Configuration" name="org.springsource.ide.eclipse.gradle.refresh.prefs" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\gradle\org.springsource.ide.eclipse.gradle.refresh.prefs"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\.settings\org.eclipse.jdt.core.prefs"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="assets" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets">
+        <inventoryElement xsi:type="source:Image" name="back.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\back.png"/>
+        <inventoryElement xsi:type="source:Image" name="badlogic.jpg" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\badlogic.jpg"/>
+        <inventoryElement xsi:type="source:Directory" name="button" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button">
+          <inventoryElement xsi:type="source:Image" name="but_d.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\but_d.png"/>
+          <inventoryElement xsi:type="source:Image" name="but_up.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\but_up.png"/>
+          <inventoryElement xsi:type="source:BinaryFile" name="Thumbs.db" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\button\Thumbs.db"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="field" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field">
+          <inventoryElement xsi:type="source:Image" name="11_07.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\11_07.png"/>
+          <inventoryElement xsi:type="source:Image" name="field.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\field.png"/>
+          <inventoryElement xsi:type="source:Image" name="miss.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\miss.png"/>
+          <inventoryElement xsi:type="source:BinaryFile" name="Thumbs.db" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\field\Thumbs.db"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="font" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font">
+          <inventoryElement xsi:type="source:SourceFile" name="butFont.fnt" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont.fnt"/>
+          <inventoryElement xsi:type="source:Image" name="butFont_0.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_0.png"/>
+          <inventoryElement xsi:type="source:Image" name="butFont_1.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_1.png"/>
+          <inventoryElement xsi:type="source:Image" name="butFont_2.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_2.png"/>
+          <inventoryElement xsi:type="source:Image" name="butFont_3.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\butFont_3.png"/>
+          <inventoryElement xsi:type="source:SourceFile" name="font.fnt" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font.fnt"/>
+          <inventoryElement xsi:type="source:Image" name="font_0.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_0.png"/>
+          <inventoryElement xsi:type="source:Image" name="font_1.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_1.png"/>
+          <inventoryElement xsi:type="source:Image" name="font_2.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_2.png"/>
+          <inventoryElement xsi:type="source:Image" name="font_3.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\font\font_3.png"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="pane" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane">
+          <inventoryElement xsi:type="source:Image" name="back.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\back.png"/>
+          <inventoryElement xsi:type="source:Image" name="empty.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\empty.png"/>
+          <inventoryElement xsi:type="source:Image" name="horKnob.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\horKnob.png"/>
+          <inventoryElement xsi:type="source:Image" name="hScroll.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\hScroll.png"/>
+          <inventoryElement xsi:type="source:Image" name="hScrollKnob.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\hScrollKnob.png"/>
+          <inventoryElement xsi:type="source:Image" name="paneBack.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\paneBack.png"/>
+          <inventoryElement xsi:type="source:Image" name="select.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\select.png"/>
+          <inventoryElement xsi:type="source:BinaryFile" name="Thumbs.db" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\Thumbs.db"/>
+          <inventoryElement xsi:type="source:Image" name="verKnob.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\verKnob.png"/>
+          <inventoryElement xsi:type="source:Image" name="vScroll.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\vScroll.png"/>
+          <inventoryElement xsi:type="source:Image" name="vScrollKnob.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\pane\vScrollKnob.png"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="ships" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships">
+          <inventoryElement xsi:type="source:Image" name="h1.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h1.png"/>
+          <inventoryElement xsi:type="source:Image" name="h2.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h2.png"/>
+          <inventoryElement xsi:type="source:Image" name="h3.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h3.png"/>
+          <inventoryElement xsi:type="source:Image" name="h4.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\h4.png"/>
+          <inventoryElement xsi:type="source:BinaryFile" name="Thumbs.db" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\Thumbs.db"/>
+          <inventoryElement xsi:type="source:Image" name="v1.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v1.png"/>
+          <inventoryElement xsi:type="source:Image" name="v2.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v2.png"/>
+          <inventoryElement xsi:type="source:Image" name="v3.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v3.png"/>
+          <inventoryElement xsi:type="source:Image" name="v4.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\ships\v4.png"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Image" name="splashRing.png" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\assets\splashRing.png"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="bin" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin">
+        <inventoryElement xsi:type="source:Directory" name="ru" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru">
+          <inventoryElement xsi:type="source:Directory" name="ssau" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau">
+            <inventoryElement xsi:type="source:Directory" name="seabattle" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle">
+              <inventoryElement xsi:type="source:Directory" name="core" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core">
+                <inventoryElement xsi:type="source:BinaryFile" name="Cell.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Cell.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="CellState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\CellState.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Coordinate.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Coordinate.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Field.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Field.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Ship.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Ship.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ShipState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\ShipState.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Shoot.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\Shoot.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ShootState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\core\ShootState.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="game" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game">
+                <inventoryElement xsi:type="source:BinaryFile" name="Game.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\Game.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OLDController.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDController.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OLDController2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDController2.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OLDNetGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDNetGame.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OLDSingleGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\OLDSingleGame.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="SeaBatGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\SeaBatGame.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="TurnToken.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\game\TurnToken.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="opponent" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent">
+                <inventoryElement xsi:type="source:BinaryFile" name="AI.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\AI.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Level.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Level.class"/>
+                <inventoryElement xsi:type="source:Directory" name="net" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net">
+                  <inventoryElement xsi:type="source:Directory" name="server" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server">
+                    <inventoryElement xsi:type="source:BinaryFile" name="Reciver.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\Reciver.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SeaBatClient.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatClient.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SeaBatNetCodes.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SeaBatServer.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\SeaBatServer.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ServerFinder.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\net\server\ServerFinder.class"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="Net.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Net.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OLDAI.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\OLDAI.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Opponent.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\Opponent.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OpponentTurnGetter.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\OpponentTurnGetter.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ServerFinder.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\opponent\ServerFinder.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="resources" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\resources">
+                <inventoryElement xsi:type="source:BinaryFile" name="Textures.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\resources\Textures.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:BinaryFile" name="SeaBattle.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\SeaBattle.class"/>
+              <inventoryElement xsi:type="source:Directory" name="ui" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui">
+                <inventoryElement xsi:type="source:BinaryFile" name="ActorAccessor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ActorAccessor.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Cell.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Cell.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$2.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator$3.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\FieldCreator.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameController$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameController$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameController.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameController.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameScreen$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen$2.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameScreen.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="GameType.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\GameType.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="LoadGame$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\LoadGame$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="LoadGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\LoadGame.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$2.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$3.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$4.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$4.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$5.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu$5.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="MainMenu.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\MainMenu.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$2.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$3.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame$4.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$4.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame$5.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame$5.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="NewGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\NewGame.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="SeaBattle.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\SeaBattle.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ServerChooserScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ServerChooserScreen$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ServerChooserScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ServerChooserScreen.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ShipActor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\ShipActor.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Splash$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Splash$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Splash.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\Splash.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="SpriteAccessor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\SpriteAccessor.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="TeamScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\TeamScreen$1.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="TeamScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\bin\ru\ssau\seabattle\ui\TeamScreen.class"/>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="build" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build">
+        <inventoryElement xsi:type="source:Directory" name="classes" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes">
+          <inventoryElement xsi:type="source:Directory" name="main" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main">
+            <inventoryElement xsi:type="source:Directory" name="ru" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru">
+              <inventoryElement xsi:type="source:Directory" name="ssau" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau">
+                <inventoryElement xsi:type="source:Directory" name="seabattle" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle">
+                  <inventoryElement xsi:type="source:Directory" name="core" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core">
+                    <inventoryElement xsi:type="source:BinaryFile" name="Cell$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Cell$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Cell.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Cell.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="CellState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\CellState.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Coordinate.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Coordinate.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Field$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Field$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Field.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Field.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Ship.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Ship.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ShipState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\ShipState.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Shoot.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\Shoot.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ShootState.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\core\ShootState.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:Directory" name="game" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game">
+                    <inventoryElement xsi:type="source:BinaryFile" name="Game.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\Game.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDController.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDController.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDController2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDController2.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDNetGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDNetGame.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDSingleGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\OLDSingleGame.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SeaBatGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\SeaBatGame.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="TurnToken.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\game\TurnToken.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:Directory" name="opponent" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent">
+                    <inventoryElement xsi:type="source:BinaryFile" name="AI$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\AI$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="AI.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\AI.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Level.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Level.class"/>
+                    <inventoryElement xsi:type="source:Directory" name="net" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net">
+                      <inventoryElement xsi:type="source:Directory" name="server" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server">
+                        <inventoryElement xsi:type="source:BinaryFile" name="Reciver.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\Reciver.class"/>
+                        <inventoryElement xsi:type="source:BinaryFile" name="SeaBatClient.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatClient.class"/>
+                        <inventoryElement xsi:type="source:BinaryFile" name="SeaBatNetCodes.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.class"/>
+                        <inventoryElement xsi:type="source:BinaryFile" name="SeaBatServer.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\SeaBatServer.class"/>
+                        <inventoryElement xsi:type="source:BinaryFile" name="ServerFinder.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\net\server\ServerFinder.class"/>
+                      </inventoryElement>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Net.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Net.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDAI$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OLDAI$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OLDAI.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OLDAI.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Opponent.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\Opponent.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OpponentTurnGetter.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\OpponentTurnGetter.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ServerFinder.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\opponent\ServerFinder.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:Directory" name="resources" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\resources">
+                    <inventoryElement xsi:type="source:BinaryFile" name="Textures.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\resources\Textures.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:BinaryFile" name="SeaBattle.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\SeaBattle.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="ui" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui">
+                    <inventoryElement xsi:type="source:BinaryFile" name="ActorAccessor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ActorAccessor.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Cell.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Cell.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$2.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator$3.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="FieldCreator.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\FieldCreator.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameController$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameController$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameController.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameController.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameScreen$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen$2.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameScreen.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="GameType.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\GameType.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="LoadGame$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\LoadGame$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="LoadGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\LoadGame.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$2.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$3.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$4.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$4.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu$5.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu$5.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="MainMenu.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\MainMenu.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame$2.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$2.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame$3.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$3.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame$4.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$4.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame$5.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame$5.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="NewGame.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\NewGame.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SeaBattle.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\SeaBattle.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ServerChooserScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ServerChooserScreen$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ServerChooserScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ServerChooserScreen.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ShipActor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\ShipActor.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Splash$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Splash$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="Splash.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\Splash.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SpriteAccessor.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\SpriteAccessor.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="TeamScreen$1.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\TeamScreen$1.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="TeamScreen.class" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\classes\main\ru\ssau\seabattle\ui\TeamScreen.class"/>
+                  </inventoryElement>
+                </inventoryElement>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="dependency-cache" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\dependency-cache"/>
+        <inventoryElement xsi:type="source:Directory" name="libs" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\libs">
+          <inventoryElement xsi:type="source:BinaryFile" name="core-1.0.jar" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\libs\core-1.0.jar"/>
+        </inventoryElement>
+        <inventoryElement xsi:type="source:Directory" name="tmp" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\tmp">
+          <inventoryElement xsi:type="source:Directory" name="compileJava" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\tmp\compileJava"/>
+          <inventoryElement xsi:type="source:Directory" name="jar" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\tmp\jar">
+            <inventoryElement xsi:type="source:Configuration" name="MANIFEST.MF" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build\tmp\jar\MANIFEST.MF"/>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:SourceFile" name="build.gradle" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\build.gradle"/>
+      <inventoryElement xsi:type="source:SourceFile" name="SeaBattle-core_java.xmi" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\SeaBattle-core_java.xmi"/>
+      <inventoryElement xsi:type="source:Directory" name="src" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src">
+        <inventoryElement xsi:type="source:Directory" name="ru" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru">
+          <inventoryElement xsi:type="source:Directory" name="ssau" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau">
+            <inventoryElement xsi:type="source:Directory" name="seabattle" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle">
+              <inventoryElement xsi:type="source:Directory" name="core" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core">
+                <inventoryElement xsi:type="source:SourceFile" name="Cell.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Cell.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="CellState.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\CellState.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Coordinate.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Coordinate.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Field.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Field.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Ship.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Ship.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ShipState.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\ShipState.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Shoot.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\Shoot.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ShootState.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\core\ShootState.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="game" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game">
+                <inventoryElement xsi:type="source:SourceFile" name="Game.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\Game.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OLDController.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDController.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OLDController2.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDController2.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OLDNetGame.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDNetGame.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OLDSingleGame.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\OLDSingleGame.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="SeaBatGame.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\SeaBatGame.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="TurnToken.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\game\TurnToken.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="opponent" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent">
+                <inventoryElement xsi:type="source:SourceFile" name="AI.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\AI.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Level.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Level.java"/>
+                <inventoryElement xsi:type="source:Directory" name="net" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net">
+                  <inventoryElement xsi:type="source:Directory" name="server" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server">
+                    <inventoryElement xsi:type="source:SourceFile" name="Reciver.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\Reciver.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="SeaBatClient.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatClient.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="SeaBatNetCodes.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatNetCodes.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="SeaBatServer.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\SeaBatServer.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="ServerFinder.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\net\server\ServerFinder.java"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="Net.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Net.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OLDAI.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\OLDAI.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Opponent.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\Opponent.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OpponentTurnGetter.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\OpponentTurnGetter.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ServerFinder.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\opponent\ServerFinder.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="resources" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\resources">
+                <inventoryElement xsi:type="source:SourceFile" name="Textures.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\resources\Textures.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:SourceFile" name="SeaBattle.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\SeaBattle.java"/>
+              <inventoryElement xsi:type="source:Directory" name="ui" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui">
+                <inventoryElement xsi:type="source:SourceFile" name="ActorAccessor.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ActorAccessor.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Cell.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\Cell.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="FieldCreator.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\FieldCreator.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="GameController.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameController.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="GameScreen.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameScreen.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="GameType.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\GameType.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="LoadGame.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\LoadGame.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="MainMenu.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\MainMenu.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="NewGame.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\NewGame.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="SeaBattle.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\SeaBattle.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ServerChooserScreen.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ServerChooserScreen.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ShipActor.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\ShipActor.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Splash.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\Splash.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="SpriteAccessor.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\SpriteAccessor.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="TeamScreen.java" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\src\ru\ssau\seabattle\ui\TeamScreen.java"/>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="uml" path="C:\Users\Beywer\git\SeaBattle\SeaBattle\core\uml"/>
+    </inventoryElement>
+  </model>
+</kdm:Segment>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/0"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/1"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/2"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/3"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/4"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/5"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/6"/>
+    <java2FileChildren href="ru.ssau.seabattle.core_java2kdm.xmi#/7"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/0"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/1"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/2"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/3"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/4"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/5"/>
+    <java2FileChildren href="ru.ssau.seabattle.game_java2kdm.xmi#/6"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/0"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/1"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/2"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/3"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/4"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/5"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent_java2kdm.xmi#/6"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2/@inventoryElement.2/@inventoryElement.0"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent.net.server_java2kdm.xmi#/0"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent.net.server_java2kdm.xmi#/1"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent.net.server_java2kdm.xmi#/2"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent.net.server_java2kdm.xmi#/3"/>
+    <java2FileChildren href="ru.ssau.seabattle.opponent.net.server_java2kdm.xmi#/4"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.resources_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../SeaBattle-core_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.4"/>
+    <directory href="../SeaBattle-core_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5"/>
+    <parent href="../SeaBattle-core_java2kdm.xmi#/"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/0"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/1"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/2"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/3"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/4"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/5"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/6"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/7"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/8"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/9"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/10"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/11"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/12"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/13"/>
+    <java2FileChildren href="ru.ssau.seabattle.ui_java2kdm.xmi#/14"/>
+  </javaapplication:Java2Directory>
+</xmi:XMI>
