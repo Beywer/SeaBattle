@@ -11,7 +11,7 @@ import ru.ssau.seabattle.core.ShootState;
 import ru.ssau.seabattle.game.SeaBatGame;
 import ru.ssau.seabattle.game.TurnToken;
 
-public class AI implements Runnable {
+public class AI implements Opponent,Runnable {
 
 	private Level level;
 	private int[][] find4=new int[26][2];
@@ -150,11 +150,13 @@ public class AI implements Runnable {
 	public AI(SeaBatGame game, Level level){
 		this.game = game;
 		this.level = level;
+		Field opponentField = new Field();
+		opponentField.generate();
+		game.setOpponentField(opponentField);
+		playerField = game.getMyField();
 	}
 	
 	private void makeLowLevelTurn(){
-		//Пока ходит оппонент.
-		while(game.getTurnToken() == TurnToken.OPPONENT){
 			Random r = new Random();
 			//Получаем списко возможных ходов.
 			cells = game.getFreeCells();
@@ -164,8 +166,8 @@ public class AI implements Runnable {
 			Coordinate cell = cells.get(next);
 			int y = cell.getY();
 			int x = cell.getX();
+			System.out.println("Противник "+x + " " + y);
 			game.opponentShoot(x, y);
-		}
 	}
 	
 	private ShootState makeMiddleLevelTurn(){
@@ -176,12 +178,13 @@ public class AI implements Runnable {
 		else{ // Если не добивание
 			Random r = new Random();
 			//Выстрел в рандомную клетку без повторения выстрелов
+			cells = game.getFreeCells();
 			Coordinate nextCell = cells.get(r.nextInt(cells.size()));
 			int y = nextCell.getY();
 			int x = nextCell.getX();
 			cells.remove(nextCell);
 			lastShoot = new Coordinate(x, y);
-			lastShootState = playerField.shoot(x, y);
+			lastShootState = game.opponentShoot(x, y);
 			if(lastShootState == ShootState.INJURED){
 				isFinishOff = true;  //Начинаем добивание, если ранен
 				firstX = x;
@@ -318,7 +321,7 @@ public class AI implements Runnable {
 				makeMiddleLevelTurn();
 				break; 
 			case HARD :
-				makeHardLevelTurn();
+				makeMiddleLevelTurn();
 				break;
 			default: assert false;
 		}
@@ -341,7 +344,15 @@ public class AI implements Runnable {
 	public void run() {
 		//Пока игра не кончилась, делаем следующий выстрел.
 		while(!game.isGameEnded()){
-			makeNextTurn();
-		}		
+//			System.out.println(game.getTurnToken() + "  " + game.isGameEnded());
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			if(game.getTurnToken() == TurnToken.OPPONENT)
+				makeNextTurn();
+		}	
 	}
 }

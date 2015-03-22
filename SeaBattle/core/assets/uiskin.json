@@ -1,0 +1,106 @@
+{
+	resources:{
+		com.badlogic.gdx.scenes.scene2d.utils.Drawable:{
+			but_down:{
+				class:com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable,
+				name:but_down,
+				region:{
+					regionHeight:53,
+					regionWidth:256,
+					texture:{
+						vWrap:ClampToEdge,
+						data:{
+							class:com.badlogic.gdx.graphics.glutils.FileTextureData,
+							useMipMaps:false,
+							width:256,
+							height:53,
+							isPrepared:false,
+							format:RGBA8888,
+							file:{
+								class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,
+								type:Internal,
+								file:{path:button\\but_d.png}},
+							pixmap:null},
+						magFilter:Nearest,
+						glHandle:22,
+						minFilter:Nearest,
+						glTarget:3553,
+						uWrap:ClampToEdge},
+					v2:1,
+					u2:1},
+				minWidth:256,
+				minHeight:53},
+			back:{
+				class:com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable,
+				name:back,
+				region:{
+					regionHeight:625,regionWidth:1000,
+					texture:{
+						vWrap:ClampToEdge,
+						data:{
+							class:com.badlogic.gdx.graphics.glutils.FileTextureData,
+							useMipMaps:false,
+							width:1000,
+							height:625,
+							isPrepared:false,
+							format:RGBA8888,
+							file:{
+								class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,
+								type:Internal,
+								file:{path:back.png}},
+							pixmap:null},
+						magFilter:Nearest,
+						glHandle:9,
+						minFilter:Nearest,
+						glTarget:3553,
+						uWrap:ClampToEdge},
+					v2:1,
+					u2:1},
+				minWidth:1000,
+				minHeight:625},
+			but_up:{
+				class:com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable,
+				name:but_up,region:{
+					regionHeight:53,
+					regionWidth:256,
+					texture:{
+						vWrap:ClampToEdge,
+						data:{
+							class:com.badlogic.gdx.graphics.glutils.FileTextureData,
+							useMipMaps:false,
+							width:256,
+							height:53,
+							isPrepared:false,
+							format:RGBA8888,
+							file:{
+								class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,
+								type:Internal,
+								file:{path:button\\but_up.png}},
+							pixmap:null},
+						magFilter:Nearest,
+						glHandle:21,
+						minFilter:Nearest,
+						glTarget:3553,
+						uWrap:ClampToEdge},
+					v2:1,
+					u2:1},
+				minWidth:256,
+				minHeight:53}},
+		com.badlogic.gdx.graphics.g2d.TextureRegion:{but_down:{class:com.badlogic.gdx.graphics.g2d.TextureRegion,regionHeight:53,regionWidth:256,texture:{vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:256,height:53,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:button\\but_d.png}},pixmap:null},magFilter:Nearest,glHandle:22,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge},v2:1,u2:1},back:{class:com.badlogic.gdx.graphics.g2d.TextureRegion,regionHeight:625,regionWidth:1000,texture:{vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:1000,height:625,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:back.png}},pixmap:null},magFilter:Nearest,glHandle:9,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge},v2:1,u2:1},but_up:{class:com.badlogic.gdx.graphics.g2d.TextureRegion,regionHeight:53,regionWidth:256,texture:{vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:256,height:53,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:button\\but_up.png}},pixmap:null},magFilter:Nearest,glHandle:21,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge},v2:1,u2:1}},com.badlogic.gdx.graphics.Texture:{but_down:{class:com.badlogic.gdx.graphics.Texture,vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:256,height:53,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:button\\but_d.png}},pixmap:null},magFilter:Nearest,glHandle:22,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge},back:{class:com.badlogic.gdx.graphics.Texture,vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:1000,height:625,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:back.png}},pixmap:null},magFilter:Nearest,glHandle:9,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge},but_up:{class:com.badlogic.gdx.graphics.Texture,vWrap:ClampToEdge,data:{class:com.badlogic.gdx.graphics.glutils.FileTextureData,useMipMaps:false,width:256,height:53,isPrepared:false,format:RGBA8888,file:{class:com.badlogic.gdx.backends.lwjgl.LwjglFileHandle,type:Internal,file:{path:button\\but_up.png}},pixmap:null},magFilter:Nearest,glHandle:21,minFilter:Nearest,glTarget:3553,uWrap:ClampToEdge}},
+	},
+		com.badlogic.gdx.graphics.Color: {
+			white: { a: 1, b: 1, g: 1, r: 1 },
+		},
+		
+		com.badlogic.gdx.graphics.g2d.BitmapFont:{
+			small :{file : font/butFont.fnt }
+		},
+		
+		com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+			default: { titleFont: small, background: back, titleFontColor: white },
+		}
+	
+}
+				
+				
+				

@@ -1,5 +1,9 @@
 package ru.ssau.seabattle.ui;
 
+import ru.ssau.seabattle.core.Field;
+import ru.ssau.seabattle.game.GameSettings;
+import ru.ssau.seabattle.opponent.Level;
+
 import com.badlogic.gdx.Game;
 
 public class SeaBattle extends Game  {
@@ -7,6 +11,11 @@ public class SeaBattle extends Game  {
 	@Override
 	public void create() {
 		setScreen(new MainMenu());
+//		Field playerField = new Field();
+//		playerField.generate();
+//		GameSettings settings = new GameSettings();
+//		settings.mackeItSingleGame(Level.LOW);
+//		setScreen(new GameController(settings,playerField));
 	}
 
 	@Override

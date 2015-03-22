@@ -2,13 +2,10 @@ package ru.ssau.seabattle.ui;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.RandomAccessFile;
-import java.util.ArrayList;
 
 import ru.ssau.seabattle.game.SeaBatGame;
 
@@ -39,11 +36,9 @@ public class LoadGame implements Screen {
 	private ScrollPane pane;
 	private ScrollPaneStyle style;
 	private List<String> list;
-	private List<File> listWithFileNames;
 	private Label header;
 	private TextButton butContinue, butBack;
 	private BitmapFont butFont, headerFont;
-	private String saved=".\\saved\\";
 	
 	int i = 30;
 	float time = 0;;
@@ -65,22 +60,7 @@ public class LoadGame implements Screen {
 	@Override
 	public void show() {
 		stage = new Stage();
-		/*
-		String fileName="."+"1.txt";
-		RandomAccessFile file = null;
-		try {
-			file = new RandomAccessFile(fileName, "rw");
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			file.writeChars("Йо-хо-хо");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
-		//
+		
 		//Textures
 		Skin skin = new Skin();
 		Texture texture = new Texture("pane/select.png");
@@ -110,10 +90,15 @@ public class LoadGame implements Screen {
 				, skin.getDrawable("vScrollKnob"));
 		
 		ListStyle listStyle = new ListStyle(butFont , Color.WHITE, Color.BLACK, skin.getDrawable("vScroll"));
-
-		listWithFileNames = new List<File>(listStyle);//список файлов из папки
-		listWithFileNames=getListFiles(saved,listWithFileNames);
-		pane =new ScrollPane(listWithFileNames,style);
+		
+		list = new List<String>(listStyle);
+		list.setItems("          sdf","		sdf2","		sdf3","		sdf4","		sdf5","		sdf6","sdf7"
+				,"sdf8","sdf9","sdf10","sdf11","sdf12"
+				,"sdf13","sdf14","sdf15"
+				,"sdf16","sdf17","sdf18"
+				,"sdf19","sdf20","sdf21","sdf22","sdf23");
+		
+		pane = new ScrollPane(list, style);
 		pane.setSize(700, 350);
 			
 		//Font and header
@@ -196,63 +181,22 @@ public class LoadGame implements Screen {
 	public void dispose() {
 		stage.dispose();
 	}
-/**
- * 
- * @param s Сохраняемый объект
- * @param name Место где лежат все сохранения
- * @throws IOException
- */
-	public void saveGame(SeaBatGame s, String name) throws IOException//Черновое сохранение
+
+	public void saveGame(SeaBatGame s,String save) throws IOException//Черновое сохранение
 	{
-		FileOutputStream fos = new FileOutputStream("C:\\1\\"+name+".sav");
+		FileOutputStream fos = new FileOutputStream(save);
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		SeaBatGame ts =s;
+		SeaBatGame ts = s;
 		oos.writeObject(ts);
 		oos.flush();
 		oos.close();
 	}
-	/**
-	 * 
-	 * @param name Место где лежат все сохранения
-	 * @return Объект SeaBatGame
-	 * @throws IOException
-	 * @throws ClassNotFoundException
-	 */
-	public SeaBatGame loadGame(String name)throws IOException, ClassNotFoundException//Черновая загрузка
+	public SeaBatGame loadGame(String load)throws IOException, ClassNotFoundException//Черновая загрузка
 	{
-		FileInputStream fis = new FileInputStream("C:\\1\\"+name+".sav");
+		FileInputStream fis = new FileInputStream(load);
 		ObjectInputStream oin = new ObjectInputStream(fis);
 		SeaBatGame ts = (SeaBatGame) oin.readObject();
 		return ts;
-	}
-	/**
-	 * 
-	 * @param str путь к папке
-	 */
-	public List<File> getListFiles(String str, List<File> listWithFileNames) {//сохраняет список всех файлов из папки в глобальную переменную
-        File f = new File(str);
-        for (File s : f.listFiles()) {
-            if (s.isFile()) {
-            	if(s.getName().endsWith(".sav"))
-                listWithFileNames.getItems().add(s);;
-            } else if (s.isDirectory()) {
-            	listWithFileNames=getListFiles(s.getAbsolutePath(),listWithFileNames);      
-            }
-        }
-		return listWithFileNames;
-        
-    }
-	/**
-	 * 
-	 * @param s путь к папке
-	 */
-	public void printListFile(String s,List<File> listWithFileNames)//печатает список всех файлов из папки
-	{
-		listWithFileNames=getListFiles(s,listWithFileNames);
-        
-        for (File fil : listWithFileNames.getItems()) {
-            System.out.println(fil.getName());
-        }
 	}
 
 }

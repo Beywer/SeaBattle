@@ -115,14 +115,15 @@ public class Field implements Serializable {
 		if(x >= 0 & y >= 0 & x < 10 & y < 10)			//если нос попадает в поле
 			{
 			if(direction){				//в зависимости от направления удаляются клитки вниз или вправо
-				if(x + decksNumber < 10){
-					for(int i=x; i< x+decksNumber;i++)
+				if(x + decksNumber -1 < 10){
+					for(int i=x; i< x+decksNumber;i++){
 						cells[i][y].setState(CellState.SEA);	//Очистка клеток
+					}
 					ships.remove(cells[x][y].getShip());		//Удаление корабля из списка
 				}
 			}
 			else{
-				if(y + decksNumber < 10){
+				if(y + decksNumber -1 < 10){
 					for(int j=y; j< y+decksNumber;j++)
 						cells[x][j].setState(CellState.SEA);	//Очистка клеток
 					ships.remove(cells[x][y].getShip());		//Удаление корабля из списка
@@ -197,6 +198,7 @@ public class Field implements Serializable {
 	 */
 	public ShootState shoot(int x, int y){
 		ShootState result = cells[x][y].checkResult();
+		if(result == ShootState.DEAD) missAround(cells[x][y].getShip());
 		Ship ship = cells[x][y].getShip();
 		if(ship != null) lastState  = ship.getState();
 		else lastState = null;
@@ -234,5 +236,35 @@ public class Field implements Serializable {
 			System.out.print("\n");
 		}
 	}
+
+
+	private void missAround(Ship ship){
+		int x = ship.getX();
+		int y = ship.getY();
+		if(ship.isDirection()){
+			for(int i = x; i < x+ship.getDecksNumber(); i++)
+				missAround(i,y);			
+		}else{
+			for(int i = y; i < y+ship.getDecksNumber(); i++)
+				missAround(x,i);			
+		}
+	}
+	private void missAround(int x, int y){
+		for(int i = x-1; i<=x+1;i++){
+			for(int j=y-1;j<=y+1;j++)
+				if(i>=0 && j >= 0 && j < 10 && i < 10)
+					if(cells[i][j].getState() ==  CellState.SEA)
+						cells[i][j].setState(CellState.MISS);
+		}
+	}
+	public ArrayList<Ship> getShips() {
+		return ships;
+	}
 	
+	public boolean isFieldEmpty(){
+		for(int i =0; i < 10; i ++)
+			for(int j = 0; j < 10 ; j++)
+				if(cells[i][j].getState() == CellState.SHIP) return false;
+		return true;
+	}
 }

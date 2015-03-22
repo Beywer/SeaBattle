@@ -3,14 +3,9 @@ package ru.ssau.seabattle.game;
 import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Random;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
 
 import ru.ssau.seabattle.core.CellState;
 import ru.ssau.seabattle.core.Coordinate;
@@ -18,14 +13,16 @@ import ru.ssau.seabattle.core.Field;
 import ru.ssau.seabattle.core.Shoot;
 import ru.ssau.seabattle.core.ShootState;
 
-public class SeaBatGame implements Serializable {
+public class SeaBatGame{
 	
 	private transient boolean opponentFinded, opponentReady;
 
 	private boolean gameEnded;
 	private Field opponentField, myField;
 	private ArrayList<Shoot> gameHistory;
+	private Queue<Shoot> lastShoots;
 	private TurnToken turnToken;
+	private TurnToken winner;
 	
 	//Нужны клиенту.
 	private transient HashSet<String> servers;
@@ -33,7 +30,10 @@ public class SeaBatGame implements Serializable {
 
 	public SeaBatGame(){
 		gameHistory = new ArrayList<Shoot>();
+		lastShoots = new LinkedList<Shoot>();
 		gameEnded = false;
+		chooseFirstShooter();
+		winner = null;
 	}
 	
 	public TurnToken getTurnToken() {
@@ -42,7 +42,7 @@ public class SeaBatGame implements Serializable {
 	/**
 	 * Определяет: кому принадлежит первый выстрел.
 	 */
-	public void chooseFirstShooter(){
+	private void chooseFirstShooter(){
 		Random r = new Random();
 		if(r.nextBoolean())
 			turnToken = TurnToken.MY;
@@ -52,15 +52,31 @@ public class SeaBatGame implements Serializable {
 
 	public void myShoot(int x, int y) {
 		ShootState state = opponentField.shoot(x, y);
+		gameHistory.add(new Shoot(x, y, turnToken, state));
+		lastShoots.add(new Shoot(x, y, turnToken, state));
+		if(opponentField.isFieldEmpty()){
+			gameEnded = true;
+			winner = TurnToken.MY;
+		}
 		if(state == ShootState.MISS) turnToken = TurnToken.OPPONENT;
 	}
 
 	public ShootState opponentShoot(int x, int y) {
 		ShootState state = myField.shoot(x, y);
+		gameHistory.add(new Shoot(x, y, turnToken, state));
+		lastShoots.add(new Shoot(x, y, turnToken, state));
 		if(state == ShootState.MISS) turnToken = TurnToken.MY;
+		if(myField.isFieldEmpty()) {
+			gameEnded = true;
+			winner = TurnToken.OPPONENT;
+		}
 		return state;
 	}
 
+	public Shoot getShoot(){
+		return lastShoots.poll();
+	}
+	
 	/**
 	 * Возвращает список непростеленных клеток для ИИ.
 	 * @return Список клеток.
@@ -127,6 +143,10 @@ public class SeaBatGame implements Serializable {
 
 	public void setAddressToConnect(InetAddress addressToConnect) {
 		this.addressToConnect = addressToConnect;
+	}
+
+	public TurnToken getWinner() {
+		return winner;
 	}
 	
 }

@@ -1,9 +1,13 @@
 package ru.ssau.seabattle.core;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
-public class Ship {
+public class Ship implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	
 	ArrayList<Cell> cells;
 	private int decksNumber;
 	private int x,y;
@@ -60,4 +64,5 @@ public class Ship {
 			return ShootState.INJURED;
 		}
 	}
+	
 }

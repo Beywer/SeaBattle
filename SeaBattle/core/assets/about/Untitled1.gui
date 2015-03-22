@@ -1,0 +1,1648 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<project>
+	<version>3.250100</version>
+	<nodes_count>5</nodes_count>
+	<help_id>0</help_id>
+	<alias><![CDATA[]]></alias>
+	<import_map_file><![CDATA[]]></import_map_file>
+	<export_map_file><![CDATA[]]></export_map_file>
+	<m_title><![CDATA[Морской бой]]></m_title>
+	<m_topic><![CDATA[]]></m_topic>
+	<m_next><![CDATA[application.htm]]></m_next>
+	<m_prev><![CDATA[]]></m_prev>
+	<m_print><![CDATA[index_print.htm]]></m_print>
+	<html_export_path><![CDATA[C:\Users\Настя\Desktop\4курс\ТП]]></html_export_path>
+	<rtf_header><![CDATA[<TODO>: Insert header (e.g. Title)]]></rtf_header>
+	<rtf_footer><![CDATA[<TODO>: Insert footer (e.g. Copyright)]]></rtf_footer>
+	<rtf_export_path><![CDATA[]]></rtf_export_path>
+	<chm_export_path><![CDATA[]]></chm_export_path>
+	<rtf_export_path_file><![CDATA[]]></rtf_export_path_file>
+	<chm_export_path_file><![CDATA[]]></chm_export_path_file>
+	<chm_locale>1049</chm_locale>
+	<chm_open>1</chm_open>
+	<html_open>1</html_open>
+	<rtf_open>1</rtf_open>
+	<chm_silently>0</chm_silently>
+	<keeptempfiles>0</keeptempfiles>
+	<rtf_silently>0</rtf_silently>
+	<uuid><![CDATA[f29ebb26-0816-47bd-8180-b99c24947460]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;4&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[«Морской бой» – игра для двух участников, в которой игроки по очереди называют координаты на неизвестной им карте соперника. Если у соперника по этим координатам имеется корабль (координаты заняты), то корабль или его часть «топится», а попавший получает право сделать ещё один ход. Цель игрока – первым поразить все корабли противника]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;4&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;4&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;4&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;picture&quot;&lt;&gt;normal&lt;1&gt;/normal&lt;
+&gt;add&lt;1&gt;/add&lt;
+&gt;width&lt;708&gt;/width&lt;
+&gt;height&lt;354&gt;/height&lt;
+					&gt;screen_bits&lt;&gt;![CDATA[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
+AAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIh
+wwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAA
+AAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAg
+FjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYA
+AAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAA
+AGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJs
+AAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAA
+AAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIh
+wwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAA
+AAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAg
+FjJsAAAAAAAAAGIxUaj/Ne85AAAAAAAAAECh4HPYAAAAAAAAAMRDhg0AAAAAAABALGTYAAAAAAAA
+AMRi4ujoKO85jG7ibuvk66NntRxnEj+1CqdW4dQqnFqFU6twahVOrcKpVTi1CqdW4dQqnFqFU6tw
+ahVOrcKpVTi1CqdW4dQqnFqFU6twahVOrcKpVbiLWyufwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYA
+AAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAA
+AGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJs
+AAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAA
+AAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIh
+wwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAA
+AAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAg
+FjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYA
+AAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAA
+AGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFjJsAAAAAAAAAGIhwwYAAAAAAAAgFv8P
+dSF94QEqkXAAAAAASUVORK5CYII=]]&lt;&gt;/screen_bits&lt;
+					&gt;original_width&lt;2625&gt;/original_width&lt;
+					&gt;original_height&lt;1318&gt;/original_height&lt;
+&gt;/item&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>0</empty>
+	<pages>
+		<module>
+			<help_id>0</help_id>
+			<alias><![CDATA[]]></alias>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>7961</file_size>
+		<file_hash><![CDATA[68080020FFAA2FF624ED0F37093BA9E95AADCE84]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+			<id>0</id>
+			<m_visible>1</m_visible>
+			<m_title><![CDATA[Правила игры]]></m_title>
+			<m_topic><![CDATA[]]></m_topic>
+			<uuid><![CDATA[bd4966d8-2812-4f01-af69-bc552ad4f68e]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;8&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;MS Shell Dlg&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Игровое поле – квадрат 10×10 каждого игрока, на котором размещается флот кораблей. Горизонтали нумеруются сверху вниз, а вертикали помечаются буквами слева направо. При этом используются буквы русского алфавита от «а» до «к», либо буквы латинского алфавита от «a» до «l» (пропускается буква «j»).]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Виды кораблей:]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Book Antiqua&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[−]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[1 корабль – ряд из 4 клеток («линкоры», или «четырёхпалубные»);]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Book Antiqua&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[−]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[2 корабля – ряд из 3 клеток («крейсеры», или «трёхпалубные»);]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Book Antiqua&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[−]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[3 корабля – ряд из 2 клеток («эсминцы», или «двухпалубные»);]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Book Antiqua&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[−]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[4 корабля – 1 клетка («подлодки», или «однопалубные»).]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Рядом со «своим» квадратом чертится «чужой» такого же размера, только пустой. Это участок моря, где плавают чужие корабли противника. При попадании в корабль противника – на чужом поле ставится крестик. Попавший стреляет ещё раз. При размещении корабли не могут касаться друг друга углами. ]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;2434341&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Перед началом боевых действий игроки бросают жребий или договариваются, кто будет ходить первым. Игрок, выполняющий ход, совершает выстрел – называет координаты клетки, в которой, по его мнению, находится корабль противника. Игрок делает 1 выстрел, если промахивается, то ход переходит сопернику, если попадает, делает еще выстрелы до первого промаха.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Победителем считается тот, кто первым потопит все 10 кораблей противника.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;12&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Times New Roman&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>1</empty>
+	<pages>
+	</pages>
+		</module>
+		<module>
+			<help_id>0</help_id>
+			<alias><![CDATA[]]></alias>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>3180</file_size>
+		<file_hash><![CDATA[705860C3B46B82465C7D723A33C1DBF591132075]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+			<id>0</id>
+			<m_visible>1</m_visible>
+			<m_title><![CDATA[Ведение игры]]></m_title>
+			<m_topic><![CDATA[]]></m_topic>
+			<uuid><![CDATA[fd83ff39-97e8-4fb8-b5df-b088334b4508]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[После запуска игры откроется начальная страница. Здесь можно начать новую игру, загрузить ранее сохраненную или просмотрть информацию о разработчиках и справку об игре.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>0</empty>
+	<pages>
+		<module>
+			<help_id>0</help_id>
+			<alias><![CDATA[]]></alias>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>4708</file_size>
+		<file_hash><![CDATA[B23B22E2AE93B7A30AC62D2C2E000D6FF1A143D2]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+			<id>0</id>
+			<m_visible>1</m_visible>
+			<m_title><![CDATA[Создание игры]]></m_title>
+			<m_topic><![CDATA[]]></m_topic>
+			<uuid><![CDATA[ac1fd9ac-1bef-4213-9e79-76e863fa8e0c]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Чтобы создать новую игру необходимо нажать на кнопку &amp;quot;Новая игра&amp;quot;]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Вам будет предложен выбор - сетевая или одиночная игра. Если вы выбрали одиночную игру, то нужно выбрать уровень сложности - простой, средний или сложный. ]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Если Вы хотите начать стевую игру, то нужно выбрать, подключаетесь Вы к чужой игре или создаете свою. При подключении Вам необходимо выбрать сервер.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[После этого Вы можете начать расстановку кораблей]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>1</empty>
+	<pages>
+	</pages>
+		</module>
+		<module>
+			<help_id>0</help_id>
+			<alias><![CDATA[]]></alias>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>4583</file_size>
+		<file_hash><![CDATA[F79AA5219842D0E9558139DB52BDF96F03DADFF9]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+			<id>0</id>
+			<m_visible>1</m_visible>
+			<m_title><![CDATA[Расстановка кораблей]]></m_title>
+			<m_topic><![CDATA[]]></m_topic>
+			<uuid><![CDATA[37199dff-8387-4f32-88c3-5c7f659386e8]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[После выбора режима игры будет открыто окно с изображением Вашего поля и доступными для установки кораблями.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Для того, чтобы поставить корабль на поле необходимо кликнуть на изображение кораболя и перетащить его в то место поле, куда вы хотите его поставить. Если Вы пытаетесь установить корабль в неправильное место, то установка не выполнится и корабль возвратится на панель выбора. ]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[При нажатии на кнопку &amp;quot;Выполнить растановку&amp;quot; корабли расставятся автоматически.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;tab&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Игра начнется после нажатия на кнопку &amp;quot;Играть&amp;quot;]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>1</empty>
+	<pages>
+	</pages>
+		</module>
+		<module>
+			<help_id>0</help_id>
+			<alias><![CDATA[]]></alias>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>3151</file_size>
+		<file_hash><![CDATA[EA97E0843514153C5A5BF572616AD62144961204]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+			<id>0</id>
+			<m_visible>1</m_visible>
+			<m_title><![CDATA[Ведение боя]]></m_title>
+			<m_topic><![CDATA[]]></m_topic>
+			<uuid><![CDATA[1970ff60-5043-4647-afc7-eacc2a608e51]]></uuid>
+	<m_description><![CDATA[&gt;para_group&lt;&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[На поле ведения игры отображается Ваше поле и поле противника. ]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;/p&lt;
+&gt;p&lt;
+&gt;para_align&lt;1&gt;/para_align&lt;
+&gt;para_numbering_type&lt;0&gt;/para_numbering_type&lt;
+&gt;para_number&lt;0&gt;/para_number&lt;
+&gt;para_numbering_keep&lt;0&gt;/para_numbering_keep&lt;
+&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;/font&lt;&gt;/field&lt;&gt;item type = &quot;para_start&quot;/&lt;&gt;field id = &quot;0&quot; data = &quot;NO_DATA&quot;&lt;&gt;font h=&quot;11&quot; w=&quot;0&quot; esc=&quot;0&quot; or=&quot;0&quot; chs=&quot;1&quot; op=&quot;0&quot; cp=&quot;0&quot; q=&quot;0&quot; pnf=&quot;0&quot; b=&quot;400&quot; i=&quot;0&quot; u=&quot;0&quot; s=&quot;0&quot; face=&quot;Arial&quot; color=&quot;0&quot;&lt;&gt;item type = &quot;normal&quot;&lt;&gt;![CDATA[Для удара по полю противника нужно кликнуть на одну из клеток на его поле. Если Вы промахнулись, то клетка окрасится в белый цвет и ход перейдет к противнику. При попадании в корабль клетка загорается и Вы можете продолжать выполнять ходы. Если корабль убит, то вокруг него отобразится мертвая зона.]]&lt;&gt;/item&lt;&gt;/font&lt;&gt;/field&lt;&gt;/p&lt;
+&gt;/para_group&lt;]]></m_description>
+	<links>
+	</links>
+	<empty>1</empty>
+	<pages>
+	</pages>
+		</module>
+	</pages>
+		</module>
+	</pages>
+	<keywords>
+	</keywords>
+	<project_settings>
+		<application_page>1</application_page>
+		<application_description>1</application_description>
+		<application_subs>1</application_subs>
+		<module_description>1</module_description>
+		<module_subs>1</module_subs>
+		<window_subs>1</window_subs>
+		<window_description>1</window_description>
+		<control_describe>1</control_describe>
+		<control_screenshot>1</control_screenshot>
+		<control_title>1</control_title>
+		<control_description>1</control_description>
+		<control_bullet>1</control_bullet>
+	</project_settings>
+	<help_id_settings>
+		<auto_assign>0</auto_assign>
+		<make_prefix>1</make_prefix>
+		<letters_case>0</letters_case>
+		<ctrl_alias>0</ctrl_alias>
+		<start_val>1000</start_val>
+		<topic_alias>0</topic_alias>
+		<topic_increment>100</topic_increment>
+		<prefix><![CDATA[IDH_]]></prefix>
+		<export_to_chm>1</export_to_chm>
+		<create_mapfile>1835008</create_mapfile>
+		<map_filename><![CDATA[]]></map_filename>
+		<export_hex>0</export_hex>
+	</help_id_settings>
+	<variables>
+	</variables>
+	<sitemap_settings>
+		<home_dir><![CDATA[]]></home_dir>
+		<protocol>1</protocol>
+		<make_lastmod>0</make_lastmod>
+		<make_changefreq>0</make_changefreq>
+		<make_priority>0</make_priority>
+		<compress_gzip>0</compress_gzip>
+		<create_export>0</create_export>
+		<out_dir><![CDATA[]]></out_dir>
+		<sitemaps_list><![CDATA[]]></sitemaps_list>
+		<sitemap_filename><![CDATA[]]></sitemap_filename>
+		<sitemap_index_filename><![CDATA[]]></sitemap_index_filename>
+	</sitemap_settings>
+	<sitemap_fields>
+		<changefreq><![CDATA[daily]]></changefreq>
+		<priority>50</priority>
+		<lastmod>0</lastmod>
+	</sitemap_fields>
+	<page_state_flags>
+		<page_state_readonly>0</page_state_readonly>
+		<page_state_forexport>1</page_state_forexport>
+		<page_state_status><![CDATA[Not Started]]></page_state_status>
+		<page_state_comment><![CDATA[Type here your comment]]></page_state_comment>
+	</page_state_flags>
+	<hash_sitemap>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_sitemap>
+	<has_sitemap_index>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</has_sitemap_index>
+	<hash_print_version>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_print_version>
+	<hash_main_version>
+		<file_size>4183</file_size>
+		<file_hash><![CDATA[C13FFE0A190BCD64889E46695EE19C032A93ABA4]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_main_version>
+	<hash_CSS>
+		<file_size>-1</file_size>
+		<file_hash><![CDATA[NO_HASH]]></file_hash>
+		<last_filename><![CDATA[]]></last_filename>
+</hash_CSS>
+	<html_settings>
+		<make_index>1</make_index>
+		<make_menu>0</make_menu>
+		<make_top>1</make_top>
+		<make_next>1</make_next>
+		<make_tooltips>0</make_tooltips>
+		<make_tooltip_images>0</make_tooltip_images>
+		<make_print>0</make_print>
+		<use_XHTML>0</use_XHTML>
+		<html_image_directory><![CDATA[]]></html_image_directory>
+		<html_ext><![CDATA[htm]]></html_ext>
+		<html_header><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]]></html_header>
+		<html_middle><![CDATA[</head>
+<body>
+
+]]></html_middle>
+		<html_footer><![CDATA[
+
+#DE_FOOTER 
+</body> 
+</html>]]></html_footer>
+		<html_hidestamp>0</html_hidestamp>
+		<custom_css><![CDATA[]]></custom_css>
+		<use_css>0</use_css>
+		<export_transparency>1</export_transparency>
+		<area>0</area>
+	<color_theme>
+				<cs_name><![CDATA[Blue Sky]]></cs_name>
+				<cs_m_is_custom>0</cs_m_is_custom>
+				<cs_mainborder>3628464</cs_mainborder>
+				<cs_menuborder>3628464</cs_menuborder>
+				<cs_menuitemborder>4354518</cs_menuitemborder>
+				<cs_menuitembackground>15134204</cs_menuitembackground>
+				<cs_menuitembackgroundselected>5212157</cs_menuitembackgroundselected>
+				<cs_menuitemtext>3628464</cs_menuitemtext>
+				<cs_menuitemtextactive>16777215</cs_menuitemtextactive>
+				<cs_menuwidth>230</cs_menuwidth>
+				<cs_nextprevbackground>15134204</cs_nextprevbackground>
+				<cs_nextprevtext>3628464</cs_nextprevtext>
+				<cs_contentborder>15134204</cs_contentborder>
+				<cs_contentbackground>16777215</cs_contentbackground>
+				<cs_maintitle>3628464</cs_maintitle>
+				<cs_controltitle>5212157</cs_controltitle>
+				<cs_themeuuid><![CDATA[theme_UUID_Blue Sky]]></cs_themeuuid>
+	</color_theme>
+	</html_settings>
+	<html_settings2>
+		<make_index>1</make_index>
+		<make_menu>0</make_menu>
+		<make_top>1</make_top>
+		<make_next>1</make_next>
+		<make_tooltips>0</make_tooltips>
+		<make_tooltip_images>0</make_tooltip_images>
+		<make_print>0</make_print>
+		<use_XHTML>0</use_XHTML>
+		<html_image_directory><![CDATA[]]></html_image_directory>
+		<html_ext><![CDATA[htm]]></html_ext>
+		<chm_default_topic><![CDATA[]]></chm_default_topic>
+		<chm_default_topic_uuid><![CDATA[]]></chm_default_topic_uuid>
+		<chm_default_topic_chosen_by_uuid>0</chm_default_topic_chosen_by_uuid>
+		<html_header><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">]]></html_header>
+		<html_middle><![CDATA[</head>
+<body>
+<center><b>TODO: Insert your HTML code here.</b><br><a href="$SETUP_HTML_TEMPLATE">(Press here to edit the HTML template)</a></center>
+]]></html_middle>
+		<html_footer><![CDATA[
+<center><b>TODO: Insert your HTML code here.</b><br><a href="$SETUP_HTML_TEMPLATE">(Press here to edit the HTML template)</a></center>
+#DE_FOOTER 
+</body> 
+</html>]]></html_footer>
+		<html_hidestamp>0</html_hidestamp>
+		<custom_css><![CDATA[]]></custom_css>
+		<use_css>0</use_css>
+		<export_transparency>0</export_transparency>
+		<area>0</area>
+	<color_theme>
+				<cs_name><![CDATA[Blue Sky]]></cs_name>
+				<cs_m_is_custom>0</cs_m_is_custom>
+				<cs_mainborder>3628464</cs_mainborder>
+				<cs_menuborder>3628464</cs_menuborder>
+				<cs_menuitemborder>4354518</cs_menuitemborder>
+				<cs_menuitembackground>15134204</cs_menuitembackground>
+				<cs_menuitembackgroundselected>5212157</cs_menuitembackgroundselected>
+				<cs_menuitemtext>3628464</cs_menuitemtext>
+				<cs_menuitemtextactive>16777215</cs_menuitemtextactive>
+				<cs_menuwidth>230</cs_menuwidth>
+				<cs_nextprevbackground>15134204</cs_nextprevbackground>
+				<cs_nextprevtext>3628464</cs_nextprevtext>
+				<cs_contentborder>15134204</cs_contentborder>
+				<cs_contentbackground>16777215</cs_contentbackground>
+				<cs_maintitle>3628464</cs_maintitle>
+				<cs_controltitle>5212157</cs_controltitle>
+				<cs_themeuuid><![CDATA[theme_UUID_Blue Sky]]></cs_themeuuid>
+	</color_theme>
+	</html_settings2>
+	<settings_id><![CDATA[]]></settings_id>
+	<rtf_settings>
+		<make_title>1</make_title>
+		<make_contents>1</make_contents>
+		<fit_image>0</fit_image>
+		<paper_width>210000</paper_width>
+		<paper_height>297000</paper_height>
+		<paper_format><![CDATA[A4]]></paper_format>
+		<font><![CDATA[-13,0,0,0,700,0,0,0,1,3,2,1,34,0xffffff,Arial]]></font>
+	</rtf_settings>
+	<text_strings>
+		<text_apptitle><![CDATA[Application: ]]></text_apptitle>
+		<text_modtitle><![CDATA[Topic: ]]></text_modtitle>
+		<text_wintitle><![CDATA[Window: ]]></text_wintitle>
+		<text_chmindex><![CDATA[Title]]></text_chmindex>
+		<text_manual><![CDATA[User guide]]></text_manual>
+		<text_structapp><![CDATA[The contents of ]]></text_structapp>
+		<text_structmod><![CDATA[The contents of ]]></text_structmod>
+		<text_top><![CDATA[Top]]></text_top>
+		<text_next><![CDATA[Next page]]></text_next>
+		<text_prev><![CDATA[Previous page]]></text_prev>
+		<text_print><![CDATA[Print version]]></text_print>
+	</text_strings>
+	<MSHHW_settings>
+		<auto_index>1</auto_index>
+		<compatibility_1_1>1</compatibility_1_1>
+		<display_progress>1</display_progress>
+		<enhanced_decompilation>1</enhanced_decompilation>
+		<search_stop_list_file><![CDATA[]]></search_stop_list_file>
+	</MSHHW_settings>
+	<capture_general_settings>
+		<capture_window_always_on_top>1</capture_window_always_on_top>
+		<use_virtual_pointer>1</use_virtual_pointer>
+		<bullets_placement>1</bullets_placement>
+		<control_padding>5</control_padding>
+		<color_border_window>1411071</color_border_window>
+		<color_border_accessible>1411071</color_border_accessible>
+		<color_border_html>16711680</color_border_html>
+		<color_border_swing>15405440</color_border_swing>
+		<hide_when_snapshot_running>0</hide_when_snapshot_running>
+		<scenario_filename><![CDATA[Standard.des]]></scenario_filename>
+	</capture_general_settings>
+</project>
