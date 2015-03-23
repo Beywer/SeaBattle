@@ -27,20 +27,18 @@ public class Beacon implements Runnable {
 	
 	public void run() {
 		while(notStopped){
-			byte[] buffer = new byte[25];
-			DatagramPacket fromClient = new DatagramPacket(buffer, buffer.length);
+			byte[] buffer = new byte[0];
+			DatagramPacket fromClient = new DatagramPacket(buffer,0);
 			try {
 				serverSocket.receive(fromClient);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 			
-			String mess = new String(buffer);
-			System.out.println(mess);
-			System.out.println(fromClient.getAddress());
+			InetAddress clientAdr = fromClient.getAddress();
+			System.out.println(clientAdr);
 			
-			buffer = "OK".getBytes();
-			DatagramPacket toClient = new DatagramPacket(buffer, buffer.length, fromClient.getAddress(), 9095);
+			DatagramPacket toClient = new DatagramPacket(buffer, 0, clientAdr, 9095);
 			try {
 				serverSocket.send(toClient);
 			} catch (IOException e) {
